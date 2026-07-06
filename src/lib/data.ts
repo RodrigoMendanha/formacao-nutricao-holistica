@@ -1,0 +1,287 @@
+/**
+ * data.ts — Toda a copy/conteúdo da landing page (texto exato).
+ * Centralizado para facilitar edição sem mexer nos componentes.
+ */
+
+// 1) Tarja de topo
+export const TARJA_TOPO =
+  "EXCLUSIVO PARA NUTRICIONISTAS E ESTUDANTES DE NUTRIÇÃO QUE DESEJAM TER UM DIFERENCIAL REAL NO MERCADO";
+
+// 2) Hero
+export const HERO = {
+  h1: "Nutri, faça parte da única Formação em Nutrição Holística do Brasil e se torne Referência no Mercado da Nutrição",
+  subtitulo:
+    "Destaque-se da massa com a única capacitação que integra Corpo, Mente e Espírito em um método científico comprovado e reconhecido pelo MEC",
+  cta: "QUERO ME TORNAR NUTRICIONISTA HOLÍSTICA",
+};
+
+// 3) Faixa de informações (ícone via chave)
+export const INFO_BAR = [
+  { icone: "calendar", titulo: "INÍCIO DAS AULAS", valor: "IMEDIATO" },
+  { icone: "hourglass", titulo: "DURAÇÃO DO PROGRAMA", valor: "12 MESES" },
+  { icone: "monitor", titulo: "COMO VAI FUNCIONAR", valor: "EAD 100% ONLINE" },
+  { icone: "clock", titulo: "CARGA HORÁRIA", valor: "120 horas" },
+];
+
+// 4) Método (3 cards)
+export const METODO = {
+  titulo: "ENTENDA COMO FUNCIONA O MÉTODO DA NUTRIÇÃO HOLÍSTICA®",
+  cards: [
+    {
+      icone: "globe",
+      titulo: "ÚNICO PROCESSO COMPROVADO QUE UNE:",
+      itens: [
+        "Visão holística do ser humano (corpo, mente e espírito)",
+        "Fundamentação Científica sólida",
+        "Resultados transformadores para seus pacientes",
+        "Diferencial Real no mercado da Nutrição",
+      ],
+    },
+    {
+      icone: "list-checks",
+      titulo: "COMO FUNCIONA:",
+      itens: [
+        "Base científica validada pela universidade",
+        "Integração com práticas reconhecidas pela OMS",
+        "Protocolos exclusivos testados em mais de 3.500 pacientes",
+        "Sistema de atendimento que gera resultados previsíveis e consistentes",
+      ],
+    },
+    {
+      icone: "star",
+      titulo: "O QUE MUDA PARA VOCÊ:",
+      itens: [
+        "Reconhecimento como Autoridade e Referência no mercado",
+        "Pacientes que valorizam e pagam mais",
+        "Liberdade para escolher seus pacientes",
+        "Agenda completa com mais faturamento sem precisar trabalhar mais",
+        "Menos horas de trabalho e mais tempo para desfrutar da vida",
+      ],
+    },
+  ],
+  cta: "QUERO ME DIFERENCIAR NO MERCADO",
+};
+
+// 5) Ementa
+export const EMENTA = {
+  titulo: "CONHEÇA A EMENTA DA FORMAÇÃO EM NUTRIÇÃO HOLÍSTICA®",
+  subtitulo: "Aqui está o que torna nosso programa único",
+  modulos: [
+    "MÓDULO 1: Introdução e Fundamentos do Holismo",
+    "MÓDULO 2: Visão Geral da Jornada",
+    "MÓDULO 3: A Linguagem da Cura",
+    "MÓDULO 4: As Colunas do Holismo",
+    "MÓDULO 5: Nutrição Funcional, Integrativa e Nutrição Holística",
+    "MÓDULO 6: A Biologia da Consciência e da Saúde",
+    "MÓDULO 7: O Corpo que Fala",
+    "MÓDULO 8: O Corpo que Revela",
+    "MÓDULO 9: Encontros Ao Vivo da Formação",
+  ],
+  cta: "QUERO FAZER PARTE DA FORMAÇÃO",
+};
+
+// 6) Números + selos
+export const NUMEROS = {
+  destaques: [
+    { valor: "+3.500", label: "pacientes atendidos" },
+    { valor: "+500", label: "nutricionistas capacitadas" },
+    { valor: "R$ 10 milhões", label: "gerados para mentoradas" },
+    { valor: "Certificação oficial", label: "como extensão universitária pela Anhanguera" },
+    { valor: "Baseado em evidências científicas", label: "e práticas Holísticas reconhecidas" },
+    { valor: "Reconhecido pelo MEC", label: "única formação em Nutrição Holística no Brasil" },
+  ],
+  apoio: [],
+};
+
+// 7) Carrossel de resultados
+export const RESULTADOS = {
+  titulo: "RESULTADO REAL",
+  subtitulo:
+    "Veja aqui alguns dos feedbacks de Nutricionistas que já aplicaram a metodologia holística e tiveram resultados mais que expressivos",
+  // Prints de tela de celular (retrato). Mostra 3 por vez no desktop.
+  // Adicione/remova quantos quiser — o carrossel se ajusta automaticamente.
+  // Substitua os arquivos em /public/img (resultado-1.jpg, resultado-2.jpg, ...).
+  imagens: [
+    { src: "/img/depoimentos/depoimento_1.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 1" },
+    { src: "/img/depoimentos/depoimento_2.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 2" },
+    { src: "/img/depoimentos/depoimento_3.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 3" },
+    { src: "/img/depoimentos/depoimento_4.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 4" },
+    { src: "/img/depoimentos/depoimento_5.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 5" },
+    { src: "/img/depoimentos/depoimento_6.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 6" },
+    { src: "/img/depoimentos/depoimento_7.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 7" },
+    { src: "/img/depoimentos/depoimento_8.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 8" },
+    { src: "/img/depoimentos/depoimento_9.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 9" },
+    { src: "/img/depoimentos/depoimento_10.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 10" },
+    { src: "/img/depoimentos/depoimento_11.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 11" },
+  ],
+  cta: "QUERO TER RESULTADOS COMO ESSES",
+};
+
+// 8) Por que é a melhor decisão
+export const PORQUE = {
+  titulo: "Por que a Formação em Nutrição Holística é a sua melhor decisão?",
+  blocos: [
+    {
+      titulo: "MÉTODO COMPROVADO COM RESULTADOS REAIS PARA SEUS PACIENTES",
+      texto:
+        "Essa é a única metodologia que une ciência e visão holística, permitindo que você entregue resultados reais e duradouros para seus pacientes. Nossa abordagem integra aspectos físicos, mentais e espirituais, criando transformações profundas.",
+    },
+    {
+      titulo: "DIFERENCIAL REAL NO MERCADO DA NUTRIÇÃO",
+      texto:
+        "Enquanto outros profissionais focam apenas em calorias e restrições, você terá ferramentas para criar planos personalizados que consideram o ser humano como um todo (Holos).",
+    },
+    {
+      titulo: "AUTORIDADE RECONHECIDA",
+      texto:
+        "Você poderá se posicionar como Nutricionista Holística com uma formação chancelada pelo MEC. Este não é mais um curso – é uma extensão universitária com todo o conhecimento que você precisa para alcançar o nível mais elevado na sua carreira.",
+    },
+  ],
+  cta: "QUERO ME TORNAR NUTRICIONISTA HOLÍSTICA",
+};
+
+// 9) Oferta — dois planos de produto (esquerda: Formação | direita: Formação + Meta Nutri)
+export const OFERTA = {
+  titulo: "AGORA VOCÊ ESTÁ DIANTE DE UMA OPORTUNIDADE ÚNICA E EXCLUSIVA",
+
+  // Card ESQUERDA — apenas a Formação (1 logo)
+  formacao: {
+    titulo: "FORMAÇÃO NUTRIÇÃO HOLÍSTICA",
+    itens: [
+      "120 horas de conteúdo técnico, estratégico e aplicável no consultório",
+      "Formação 100% reconhecida e validada pelo MEC",
+      "Encontros mensais ao vivo com Rodrigo Mendanha e Convidados",
+      "Módulos completos com base nas ciências integrativas e modernas",
+      "Material complementar exclusivo em cada módulo",
+      "Mapeamento completo do paciente em todas as suas dimensões",
+      "Grupo fechado com alunos para trocas e networking",
+      "Acesso por 1 ano à plataforma com todas as gravações e conteúdos extras",
+    ],
+    precoDe: "De R$ 6.000",
+    // Preço em 3 partes: prefixo (pequeno) / valor (grande) / sufixo (pequeno).
+    precoPrefixo: "por apenas",
+    precoValor: "R$ 4.000",
+    precoSufixo: "à vista",
+    cta: "QUERO ME INSCREVER AGORA",
+  },
+
+  // Card DIREITA — Formação + Meta Nutri Academy (2 logos), dois planos de acesso
+  combo: {
+    titulo: "FORMAÇÃO NUTRIÇÃO HOLÍSTICA & META NUTRI ACADEMY",
+    grupos: [
+      {
+        titulo: "Formação Nutrição Holística:",
+        itens: [
+          "120 horas de conteúdo técnico, estratégico e aplicável no consultório",
+          "Formação 100% reconhecida e validada pelo MEC",
+          "Encontros mensais ao vivo com Rodrigo Mendanha e Convidados",
+          "Módulos completos com base nas ciências integrativas e modernas",
+          "Material complementar exclusivo em cada módulo",
+          "Mapeamento completo do paciente em todas as suas dimensões",
+          "Grupo fechado com alunos para trocas e networking",
+        ],
+      },
+      {
+        titulo: "Meta Nutri Academy:",
+        itens: [
+          "Hotseats semanais",
+          "Área de membros exclusiva",
+          "Acesso a Ferramentas de I.A e de Captação e Vendas",
+          "Acesso ao time de Sucesso do Cliente",
+        ],
+      },
+    ],
+    planos: [
+      {
+        label: "ACESSO ANUAL",
+        precoDe: "De R$ 7.500",
+        precoPrefixo: "por apenas",
+        precoValor: "R$ 3.997",
+        precoSufixo: "",
+        cta: "QUERO O ACESSO ANUAL",
+      },
+      {
+        label: "ACESSO SEMESTRAL",
+        precoDe: "De R$ 7.500,00",
+        precoPrefixo: "por apenas",
+        precoValor: "R$ 1.997",
+        precoSufixo: "",
+        cta: "QUERO O ACESSO SEMESTRAL",
+      },
+    ],
+  },
+};
+
+// 10) Escassez
+export const ESCASSEZ = "VAGAS LIMITADAS PARA ESSA CONDIÇÃO EXCLUSIVA";
+
+// 11) Garantia
+export const GARANTIA = {
+  titulo: "GARANTIA DE 7 DIAS",
+  texto:
+    "Acesse o conteúdo, explore os materiais e, se não ficar satisfeito, devolveremos 100% do seu investimento.",
+};
+
+// 12) Sobre o criador
+export const CRIADOR = {
+  titulo: "CONHEÇA O CRIADOR DO MÉTODO DA NUTRIÇÃO HOLÍSTICA®",
+  nome: "RODRIGO MENDANHA",
+  paragrafos: [
+    "Desde a faculdade, eu percebi algo que mudaria para sempre minha visão sobre Nutrição: os nutrientes e calorias eram apenas a ponta do iceberg.",
+    "Como você, eu também via pacientes seguindo dietas perfeitas no papel, mas que não conseguiam resultados duradouros. Outros abandonavam o tratamento mesmo quando as mudanças começavam a aparecer.",
+    "Algo estava faltando.",
+    "Foi quando comecei a perceber que a Nutrição vai muito além do prato. Cada pessoa carrega uma história única, medos, traumas e sonhos que impactam diretamente sua relação com a comida.",
+    "Comecei a testar uma abordagem diferente com pessoas próximas, abordagem essa que considerava corpo, mente e espírito como um todo integrado.",
+    "Os resultados foram surpreendentes.",
+    "Mas eu precisava de mais, participei de mais de 100 congressos e cursos, estudei diferentes linhas terapêuticas, testei protocolos, refinei a metodologia.",
+    "Foi aí que nasceu a Nutrição Holística®, o método que tem transformado a vida de milhares de pacientes e centenas de nutricionistas pelo Brasil.",
+    "Hoje, depois de atender mais de 3.500 pacientes e mentorar mais de 500 nutricionistas, posso dizer com certeza:",
+    "Existe um caminho melhor. Um que une ciência e visão integral do ser humano, e é exatamente este caminho que quero compartilhar com você.",
+  ],
+};
+
+// 13) FAQ (também gera JSON-LD FAQPage)
+export const FAQ = {
+  titulo: "FAQ",
+  subtitulo:
+    "Tire suas dúvidas com as principais perguntas e respostas sobre a Formação",
+  itens: [
+    {
+      pergunta: "Será que vou conseguir cobrar valores mais altos na minha cidade?",
+      resposta:
+        "Sim, sem dúvida. Em toda cidade existem pessoas que procuram e pagam por serviços premium. O segredo é saber como se posicionar e comunicar seu valor de forma adequada. Na sessão de resultados, você pode conferir como outras Nutris conseguiram executar essa parte da metodologia.",
+    },
+    {
+      pergunta: "Já tentei aumentar meus preços e não deu certo.",
+      resposta:
+        "Isso é comum. Aumentar preços sem uma estratégia adequada raramente funciona. O método da Nutrição Holística te ensina exatamente como criar valor percebido para justificar preço diferente do mercado.",
+    },
+    {
+      pergunta: "Não tenho tempo pra mais um curso agora.",
+      resposta:
+        "Esse não é mais um curso, é um novo modelo de atendimento. Ele foi desenhado por quem já passou pelo caos da falta de tempo. Por isso, você vai aplicar o que aprende direto na prática e colher resultados já no caminho.",
+    },
+    {
+      pergunta: "Tenho medo de perder meus pacientes atuais.",
+      resposta:
+        "Este é um medo comum, mas nossos alunos descobrem que, ao implementar o método corretamente, não apenas mantêm os bons pacientes como atraem outros ainda melhores. Novamente, na sessão de resultados você pode confirmar esse feito, através dos feedbacks que dezenas de Nutris compartilharam conosco.",
+    },
+    {
+      pergunta: "Como funciona a certificação?",
+      resposta:
+        "Você receberá um certificado de extensão universitária chancelado pelo MEC através da Universidade Anhanguera após concluir todas as aulas e atividades com aproveitamento mínimo de 70%.",
+    },
+    {
+      pergunta: "Tem suporte durante a Formação?",
+      resposta:
+        "Sim. Você terá acesso a fóruns de discussão e grupos exclusivos moderados pelo professor e monitores para tirar dúvidas.",
+    },
+    {
+      pergunta: "Por que as vagas são limitadas se a Formação é 100% online?",
+      resposta:
+        "O número de alunos é limitado para mantermos a qualidade do ensino e do suporte durante a formação.",
+    },
+  ],
+  ctaPrimario: "QUERO ENTRAR PARA A FORMAÇÃO",
+  ctaSecundario: "QUERO OUTRAS INFORMAÇÕES",
+};

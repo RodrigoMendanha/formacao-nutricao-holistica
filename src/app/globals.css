@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   FONTES AUTO-HOSPEDADAS (nunca via CDN do Google — performance/SEO/privacidade)
+   - Títulos: Astrid  (fornecida pela marca — /public/fonts/Astrid.*)
+   - Corpo/subtítulos: Montserrat (self-host — /public/fonts/montserrat-*.woff2)
+   ========================================================================== */
+
+/* ---- Astrid (títulos) ---- */
+@font-face {
+  font-family: "Astrid";
+  src: url("/fonts/Astrid.otf") format("opentype"),
+       url("/fonts/Astrid.ttf") format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---- Montserrat (corpo) — subset latin + latin-ext p/ acentos PT-BR ---- */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-400-latin.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-400-latin-ext.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-500-latin.woff2") format("woff2");
+  font-weight: 500; font-style: normal; font-display: swap;
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-500-latin-ext.woff2") format("woff2");
+  font-weight: 500; font-style: normal; font-display: swap;
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-600-latin.woff2") format("woff2");
+  font-weight: 600; font-style: normal; font-display: swap;
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-600-latin-ext.woff2") format("woff2");
+  font-weight: 600; font-style: normal; font-display: swap;
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-700-latin.woff2") format("woff2");
+  font-weight: 700; font-style: normal; font-display: swap;
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-700-latin-ext.woff2") format("woff2");
+  font-weight: 700; font-style: normal; font-display: swap;
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+
+/* ==========================================================================
+   PALETA REAL — extraída do site de referência (nutriht.com.br)
+   Fundo escuro #030f11 (dominante) · Dourado CTA #a36b22 · Verde #002721
+   Faixa de escassez vermelha #920202 · Seções claras brancas/creme
+   Troque os valores aqui para reajustar todo o tema.
+   ========================================================================== */
+:root {
+  --verde-escuro: #030f11;   /* fundo principal / seções escuras */
+  --verde-profundo: #002721; /* verde floresta — gradientes/detalhes */
+  --dourado: #a36b22;        /* accent (títulos, ícones, textos, bordas) */
+  --dourado-btn: #c08a30;    /* fundo dos BOTÕES — um pouco mais claro que o accent */
+  --dourado-claro: #c9a15b;  /* hover / brilho dourado */
+  --creme: #faf8f3;          /* fundo claro alternado */
+  --branco: #ffffff;         /* seções claras */
+  --vermelho: #920202;       /* faixa de escassez */
+  --texto: #1a1c13;          /* texto sobre fundo claro */
+  --texto-claro: #f5f2ea;    /* texto sobre fundo escuro */
+  --texto-suave: #5b6560;    /* texto secundário sobre claro */
+  --borda: #e6ddcb;          /* bordas sutis em fundo claro */
+  --borda-escura: #1c2a26;   /* bordas sutis em fundo escuro */
+  --radius: 0.75rem;
+}
+
+@theme inline {
+  --color-dark: var(--verde-escuro);
+  --color-deep: var(--verde-profundo);
+  --color-gold: var(--dourado);
+  --color-gold-btn: var(--dourado-btn);
+  --color-gold-light: var(--dourado-claro);
+  --color-cream: var(--creme);
+  --color-paper: var(--branco);
+  --color-danger: var(--vermelho);
+  --color-ink: var(--texto);
+  --color-ink-soft: var(--texto-suave);
+  --color-ink-light: var(--texto-claro);
+  --color-line: var(--borda);
+  --color-line-dark: var(--borda-escura);
+
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Astrid", Georgia, "Times New Roman", serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* compensa headers/âncoras ao rolar até seções */
+    scroll-padding-top: 2rem;
+  }
+  body {
+    background: var(--branco);
+    color: var(--texto);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: 0.01em;
+  }
+  /* Foco visível para acessibilidade (teclado) */
+  :where(a, button, input, textarea, [tabindex]):focus-visible {
+    outline: 3px solid var(--dourado);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  /* Respeita usuários que preferem menos movimento */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* ---- Utilitários de marca ---- */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #8a5a1a, var(--dourado-claro), var(--dourado));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* esconde a scrollbar do carrossel mantendo o scroll (mobile swipe) */
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* ---- Animações do modal de checkout (sem libs) ---- */
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pop-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to { opacity: 1; transform: none; }
+}
+.modal-overlay { animation: fade-in 0.2s ease-out; }
+.modal-panel { animation: pop-in 0.3s cubic-bezier(0.2, 0.8, 0.2, 1); }
