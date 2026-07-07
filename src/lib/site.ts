@@ -7,20 +7,20 @@
 export const SITE_URL = "https://formacao-nutricao-holistica.rodrigomendanha.com.br/"; // <-- TROCAR pela URL final
 
 // ── Links de CTA (checkout) ───────────────────────────────────────────────
-// Checkout principal — usado como padrão nos CTAs.
+// Checkout principal — só a Formação Nutrição Holística. Usado como padrão nos CTAs.
 export const CHECKOUT_URL =
-  "https://pay.voompcreators.com.br/9846/offer/X8URAy/?b_id_1=9844&b_offer_1=YJmNE4&ch_id=2035";
+  "https://pay.voompcreators.com.br/9846/offer/tR12Hl";
 
-// Link alternativo — CTAs de "pioneira"/urgência (se aplicável).
-export const CHECKOUT_URL_ALT = "https://pay.voompcreators.com.br/redirect/23444";
+// Checkout do combo — Formação + Meta Nutri Academy.
+export const CHECKOUT_URL_ALT = "https://pay.voompcreators.com.br/9832/offer/uYmkER";
 
-// Checkout por plano da seção de ofertas. <-- TROCAR por cada link real.
+// Checkout por plano da seção de ofertas.
 export const CHECKOUT = {
   // Card esquerda: só a Formação.
   formacao: CHECKOUT_URL,
   // Card direita: Formação + Meta Nutri Academy.
-  comboAnual: CHECKOUT_URL_ALT, // <-- TROCAR pelo link do plano ANUAL
-  comboSemestral: CHECKOUT_URL_ALT, // <-- TROCAR pelo link do plano SEMESTRAL
+  comboAnual: CHECKOUT_URL_ALT,
+  comboSemestral: CHECKOUT_URL_ALT,
 };
 
 // ── WhatsApp (botão "QUERO OUTRAS INFORMAÇÕES") ────────────────────────────
