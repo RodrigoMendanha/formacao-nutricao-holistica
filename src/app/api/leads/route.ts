@@ -9,7 +9,6 @@ import { type NextRequest, NextResponse } from "next/server";
 
 export interface Lead {
   name: string;
-  email: string;
   whatsapp: string;
   /** Produto/oferta escolhido (ex.: "Formação + Meta Nutri Academy (Anual)"). */
   product?: string;
@@ -25,14 +24,12 @@ function clean(value: string, max = 500): string {
 
 function isValidLead(body: unknown): body is Lead {
   if (typeof body !== "object" || body === null) return false;
-  const { name, email, whatsapp } = body as Record<string, unknown>;
+  const { name, whatsapp } = body as Record<string, unknown>;
   return (
     typeof name === "string" &&
     name.trim().length > 1 &&
     typeof whatsapp === "string" &&
-    whatsapp.replace(/\D/g, "").length >= 10 &&
-    typeof email === "string" &&
-    /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+    whatsapp.replace(/\D/g, "").length >= 10
   );
 }
 
@@ -60,14 +57,13 @@ export async function POST(request: NextRequest) {
 
   if (!isValidLead(body)) {
     return NextResponse.json(
-      { error: "Preencha nome, um e-mail válido e um WhatsApp válido." },
+      { error: "Preencha seu nome e um WhatsApp válido." },
       { status: 400 }
     );
   }
 
   const lead: Lead = {
     name: clean(body.name, 120),
-    email: clean(body.email, 160).toLowerCase(),
     whatsapp: clean(body.whatsapp, 40),
     product:
       typeof body.product === "string" ? clean(body.product, 120) : undefined,
@@ -82,21 +78,13 @@ export async function POST(request: NextRequest) {
     const sheetName =
       process.env.GOOGLE_SHEET_NAME || "Inscrição Formação Nutrição Holistica";
 
-    // Colunas: Nome | E-mail | WhatsApp | Produto | Mensagem | Data/Hora
+    // Colunas: Nome | WhatsApp | Produto | Data/Hora
     await sheets.spreadsheets.values.append({
       spreadsheetId: process.env.GOOGLE_SHEET_ID,
-      range: `${sheetName}!A:E`,
+      range: `${sheetName}!A:D`,
       valueInputOption: "USER_ENTERED",
       requestBody: {
-        values: [
-          [
-            lead.name,
-            lead.email,
-            lead.whatsapp,
-            lead.product ?? "",
-            now,
-          ],
-        ],
+        values: [[lead.name, lead.whatsapp, lead.product ?? "", now]],
       },
     });
 

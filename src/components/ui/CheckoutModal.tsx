@@ -26,13 +26,7 @@ interface CheckoutModalProps {
   onClose: () => void;
 }
 
-const initialForm = { name: "", whatsapp: "", email: "" };
-
-const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-function isValidEmail(email: string) {
-  return EMAIL_REGEX.test(email.trim());
-}
+const initialForm = { name: "", whatsapp: "" };
 
 /** Máscara de telefone brasileiro: (00) 0000-0000 ou (00) 00000-0000. */
 function maskWhatsapp(value: string) {
@@ -52,7 +46,6 @@ function validate(form: typeof initialForm): FieldErrors {
   if (!form.name.trim()) errors.name = "Informe seu nome.";
   const phoneDigits = form.whatsapp.replace(/\D/g, "");
   if (phoneDigits.length < 10) errors.whatsapp = "Informe um WhatsApp válido com DDD.";
-  if (!isValidEmail(form.email)) errors.email = "Informe um e-mail válido.";
   return errors;
 }
 
@@ -199,17 +192,6 @@ export function CheckoutModal({ target, onClose }: CheckoutModalProps) {
             error={fieldErrors.whatsapp}
             onChange={(v) => updateField("whatsapp", maskWhatsapp(v))}
             onBlur={() => validateField("whatsapp")}
-          />
-          <Field
-            id="co-email"
-            label="E-mail"
-            type="email"
-            autoComplete="email"
-            placeholder="voce@email.com"
-            value={form.email}
-            error={fieldErrors.email}
-            onChange={(v) => updateField("email", v)}
-            onBlur={() => validateField("email")}
           />
 
           {error && (
