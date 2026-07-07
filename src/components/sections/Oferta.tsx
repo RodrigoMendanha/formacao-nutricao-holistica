@@ -93,9 +93,9 @@ export function Oferta() {
             </ul>
 
             <div className="mt-7 flex flex-col items-center">
-              <span className="mb-3 inline-block rounded-full bg-deep px-3 py-1 text-[11px] font-semibold uppercase tracking-widest text-ink-light">
+              {/* <span className="mb-3 inline-block rounded-full bg-deep px-3 py-1 text-[11px] font-semibold uppercase tracking-widest text-ink-light">
                 {formacao.precoLabel}
-              </span>
+              </span> */}
               <Preco
                 de={formacao.precoDe}
                 prefixo={formacao.precoPrefixo}

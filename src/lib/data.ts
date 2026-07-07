@@ -155,7 +155,7 @@ export const OFERTA = {
       "Material complementar exclusivo em cada módulo",
       "Mapeamento completo do paciente em todas as suas dimensões",
       "Grupo fechado com alunos para trocas e networking",
-      "Acesso por 1 ano à plataforma com todas as gravações e conteúdos extras",
+      "Acesso por 6 meses à plataforma com todas as gravações e conteúdos extras",
     ],
     precoLabel: "6 MESES DE ACESSO",
     precoDe: "De R$ 4.000",
