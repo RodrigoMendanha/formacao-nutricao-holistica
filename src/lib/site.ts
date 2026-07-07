@@ -4,7 +4,7 @@
  */
 
 // URL FINAL/canônica da página (com barra no fim). Usada em canonical, OG e sitemap.
-export const SITE_URL = "https://nutriht.com.br/formacao-nutricao-holistica/"; // <-- TROCAR pela URL final
+export const SITE_URL = "https://formacao-nutricao-holistica.rodrigomendanha.com.br/"; // <-- TROCAR pela URL final
 
 // ── Links de CTA (checkout) ───────────────────────────────────────────────
 // Checkout principal — usado como padrão nos CTAs.
@@ -41,24 +41,32 @@ export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMERO}?text=${encodeURIC
 // Basta trocar para `true` quando quiser ativar.
 export const CHECKOUT_MODAL_ENABLED = false;
 
+// ── Microsoft Clarity (analytics / mapas de calor / gravações) ─────────────
+// ID do projeto no Clarity (https://clarity.microsoft.com → Settings → Overview).
+// Defina em NEXT_PUBLIC_CLARITY_PROJECT_ID no .env. Se vazio, o Clarity NÃO carrega
+// (útil em dev/preview para não poluir as métricas).
+export const CLARITY_PROJECT_ID = process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID ?? "";
+
 // ── SEO ───────────────────────────────────────────────────────────────────
-export const SITE_TITLE = "Formação em Nutrição Holística® | Certificada MEC";
+export const SITE_TITLE = "Formação em Nutrição Holística® | A única Formação reconhecida pelo MEC para Nutricionistas";
 export const SITE_DESCRIPTION =
-  "Torne-se referência: a única Formação em Nutrição Holística do Brasil, com método científico reconhecido pelo MEC. EAD, 120h, certificação universitária.";
+  "Aprenda ou único método que integra corpo, mente e espírito para compreender o comportamento alimentar, conduzir pacientes com mais profundidade e transformar sua prática clínica.";
 export const OG_IMAGE = "/img/og-formacao-nutricao-holistica.jpg"; // 1200x630
 
 export const SITE_KEYWORDS = [
-  "nutrição holística",
-  "formação nutrição holística",
-  "curso nutrição holística",
-  "nutricionista holística",
-  "Rodrigo Mendanha",
-  "extensão universitária nutrição",
-  "certificação MEC nutrição",
+  "Nutrição Holística",
+  "Nutricionista Holística",
+  "Formação Nutrição",
+  "Formação em Nutrição Holística",
+  "Curso de Nutrição Holística",
+  "Método Nutrição Holística",
+  "Como se tornar Nutricionista Holística",
+  "Formação em Nutrição Holística reconhecida pelo MEC",
+  "Curso para compreender comportamento alimentar na Nutrição",
 ];
 
 // ── Marca / Organização (JSON-LD) ──────────────────────────────────────────
-export const ORG_NAME = "Nutrição Holística";
+export const ORG_NAME = "Formação em Nutrição Holística®";
 export const ORG_LOGO = "/img/logo-nutricao-holistica.png";
 // Redes sociais reais (deixe [] se não houver).
 export const ORG_SAMEAS: string[] = [
@@ -71,7 +79,7 @@ export const FOOTER = {
   ano: "2026",
   marca: "Rodrigo Mendanha",
   cidade: "Brasília",
-  linkPrivacidade: "/politica-de-privacidade",
+  // linkPrivacidade: "/politica-de-privacidade",
 };
 
 // E-mail de contato para assuntos de privacidade (LGPD).

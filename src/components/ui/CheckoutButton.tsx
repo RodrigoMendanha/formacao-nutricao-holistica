@@ -4,6 +4,7 @@ import { useState } from "react";
 import { CHECKOUT_URL, CHECKOUT_MODAL_ENABLED } from "@/lib/site";
 import { ctaClassName } from "@/components/ui/Cta";
 import { CheckoutModal, type CheckoutTarget } from "@/components/ui/CheckoutModal";
+import { useUtmHref } from "@/lib/useUtmHref";
 
 interface CheckoutButtonProps {
   children: React.ReactNode;
@@ -27,12 +28,14 @@ export function CheckoutButton({
   size = "lg",
 }: CheckoutButtonProps) {
   const [target, setTarget] = useState<CheckoutTarget | null>(null);
+  // Anexa os UTMs da sessão ao link de checkout (após montar no cliente).
+  const hrefComUtms = useUtmHref(href);
 
   // Modal desabilitado: vira uma âncora normal pro checkout.
   if (!CHECKOUT_MODAL_ENABLED) {
     return (
       <a
-        href={href}
+        href={hrefComUtms}
         target="_blank"
         rel="noopener noreferrer"
         className={ctaClassName(size, "gold", className)}

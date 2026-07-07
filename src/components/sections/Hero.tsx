@@ -34,7 +34,7 @@ export function Hero() {
       <div className="mx-auto flex w-full max-w-3xl flex-1 flex-col items-center justify-center gap-6 px-4 pt-6 pb-6 text-center sm:py-20">
         {/* LOGO — se for a versão clara do logo, use uma variante escura aqui */}
         <Image
-          src="/img/logo-nutricao-holistica 1.png"
+          src="/img/logo-nutricao-holistica.png"
           width={220}
           height={220}
           alt="Logo Formação em Nutrição Holística"

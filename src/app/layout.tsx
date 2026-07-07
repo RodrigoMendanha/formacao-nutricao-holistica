@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { ClarityAnalytics } from "@/components/ClarityAnalytics";
+import { UtmCapture } from "@/components/UtmCapture";
 import {
   SITE_URL,
   SITE_TITLE,
@@ -7,6 +9,7 @@ import {
   SITE_KEYWORDS,
   OG_IMAGE,
 } from "@/lib/site";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -17,8 +20,13 @@ export const metadata: Metadata = {
     canonical: SITE_URL,
   },
   icons: {
-    icon: "/favicon.ico",
-    apple: "/img/apple-touch-icon.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32.png", type: "image/png", sizes: "32x32" },
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+      { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
   openGraph: {
     type: "website",
@@ -90,7 +98,13 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
       </head>
-      <body className="min-h-screen font-sans bg-paper text-ink">{children}</body>
+      <body className="min-h-screen font-sans bg-paper text-ink">
+        {/* TrackFind Pixel: rodrigomendanha */}
+        <Script async src="https://back.trackfind.com.br/api/v1/loader.js?pixel=19c7adea11cf8519aad0c554cd4ab4a2"></Script>
+        <ClarityAnalytics />
+        <UtmCapture />
+        {children}
+      </body>
     </html>
   );
 }

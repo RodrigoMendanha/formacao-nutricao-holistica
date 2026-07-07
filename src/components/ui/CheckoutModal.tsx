@@ -2,6 +2,7 @@
 
 import { Loader2, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { withUtms } from "@/lib/utm";
 
 /**
  * CheckoutModal — captura o lead (nome/WhatsApp/e-mail) e só então redireciona
@@ -121,8 +122,8 @@ export function CheckoutModal({ target, onClose }: CheckoutModalProps) {
         throw new Error(data?.error ?? "Não foi possível enviar seus dados.");
       }
 
-      // Lead registrado: redireciona para o checkout.
-      window.location.href = target.href;
+      // Lead registrado: redireciona para o checkout (com os UTMs da sessão).
+      window.location.href = withUtms(target.href);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Algo deu errado. Tente novamente.");
       setSubmitting(false);
