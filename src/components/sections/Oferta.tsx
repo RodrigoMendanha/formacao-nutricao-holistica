@@ -103,7 +103,11 @@ export function Oferta() {
                 sufixo={formacao.precoSufixo}
                 valorClassName="text-4xl sm:text-5xl"
               />
-              <CheckoutButton href={CHECKOUT.formacao} className="mt-5 w-full">
+              <CheckoutButton
+                href={CHECKOUT.formacao}
+                ticket={formacao.produto}
+                className="mt-5 w-full"
+              >
                 {formacao.cta}
               </CheckoutButton>
             </div>
@@ -174,6 +178,7 @@ export function Oferta() {
                   </div>
                   <CheckoutButton
                     href={i === 0 ? CHECKOUT.comboAnual : CHECKOUT.comboSemestral}
+                    ticket={plano.produto}
                     size="md"
                     className="mt-4 w-full"
                   >

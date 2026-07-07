@@ -11,7 +11,8 @@ export interface Lead {
   name: string;
   email: string;
   whatsapp: string;
-  message?: string;
+  /** Produto/oferta escolhido (ex.: "Formação + Meta Nutri Academy (Anual)"). */
+  product?: string;
 }
 
 /** Remove caracteres de controle e limita tamanho (anti-injeção/abuso). */
@@ -68,8 +69,8 @@ export async function POST(request: NextRequest) {
     name: clean(body.name, 120),
     email: clean(body.email, 160).toLowerCase(),
     whatsapp: clean(body.whatsapp, 40),
-    message:
-      typeof body.message === "string" ? clean(body.message, 1000) : undefined,
+    product:
+      typeof body.product === "string" ? clean(body.product, 120) : undefined,
   };
 
   try {
@@ -79,16 +80,22 @@ export async function POST(request: NextRequest) {
     });
 
     const sheetName =
-      process.env.GOOGLE_SHEET_NAME || "Formacao Nutricao Holistica";
+      process.env.GOOGLE_SHEET_NAME || "Inscrição Formação Nutrição Holistica";
 
-    // Colunas: Nome | E-mail | WhatsApp | Mensagem | Data/Hora
+    // Colunas: Nome | E-mail | WhatsApp | Produto | Mensagem | Data/Hora
     await sheets.spreadsheets.values.append({
       spreadsheetId: process.env.GOOGLE_SHEET_ID,
       range: `${sheetName}!A:E`,
       valueInputOption: "USER_ENTERED",
       requestBody: {
         values: [
-          [lead.name, lead.email, lead.whatsapp, lead.message ?? "", now],
+          [
+            lead.name,
+            lead.email,
+            lead.whatsapp,
+            lead.product ?? "",
+            now,
+          ],
         ],
       },
     });

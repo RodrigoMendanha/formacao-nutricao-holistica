@@ -2,6 +2,7 @@
 
 import { Loader2, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { withUtms } from "@/lib/utm";
 
 /**
@@ -114,7 +115,8 @@ export function CheckoutModal({ target, onClose }: CheckoutModalProps) {
       const res = await fetch("/api/leads", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...form, message: `Oferta: ${target.ticket}` }),
+        // `product` diferencia qual oferta o lead escolheu (Formação x Combo).
+        body: JSON.stringify({ ...form, product: target.ticket }),
       });
 
       if (!res.ok) {
@@ -130,9 +132,11 @@ export function CheckoutModal({ target, onClose }: CheckoutModalProps) {
     }
   }
 
-  if (!open) return null;
+  if (!open || typeof document === "undefined") return null;
 
-  return (
+  // Portal para o <body>: evita que os contextos de empilhamento dos cards de
+  // oferta (z-0 / z-10 sobrepostos) deixem o modal atrás do card da direita.
+  return createPortal(
     <div
       className="fixed inset-0 z-[100] flex items-center justify-center p-4"
       aria-modal="true"
@@ -234,7 +238,8 @@ export function CheckoutModal({ target, onClose }: CheckoutModalProps) {
           </p>
         </form>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
 

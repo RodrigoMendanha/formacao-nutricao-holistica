@@ -150,11 +150,11 @@ export const OFERTA = {
     itens: [
       "120 horas de conteúdo técnico, estratégico e aplicável no consultório",
       "Formação 100% reconhecida e validada pelo MEC",
-      "Encontros mensais ao vivo com Rodrigo Mendanha e Convidados",
+      "Encontros ao vivo para debater casos práticos",
       "Módulos completos com base nas ciências integrativas e modernas",
       "Material complementar exclusivo em cada módulo",
       "Mapeamento completo do paciente em todas as suas dimensões",
-      "Grupo fechado com alunos para trocas e networking",
+      "Canal da Nutrição Holística para receber atualizações semanais sobre wellness e mercado da saúde",
       // "Acesso por 6 meses à plataforma com todas as gravações e conteúdos extras",
     ],
     precoLabel: "6 MESES DE ACESSO",
@@ -164,6 +164,8 @@ export const OFERTA = {
     precoValor: "R$ 1.997",
     precoSufixo: "à vista",
     cta: "QUERO ME INSCREVER AGORA",
+    // Identificador do produto enviado à API de leads (diferencia a oferta).
+    produto: "Formação Nutrição Holística (6 meses)",
   },
 
   // Card DIREITA — Formação + Meta Nutri Academy (2 logos), dois planos de acesso
@@ -175,11 +177,11 @@ export const OFERTA = {
         itens: [
           "120 horas de conteúdo técnico, estratégico e aplicável no consultório",
           "Formação 100% reconhecida e validada pelo MEC",
-          "Encontros mensais ao vivo com Rodrigo Mendanha e Convidados",
+          "Encontros ao vivo para debater casos práticos",
           "Módulos completos com base nas ciências integrativas e modernas",
           "Material complementar exclusivo em cada módulo",
           "Mapeamento completo do paciente em todas as suas dimensões",
-          "Grupo fechado com alunos para trocas e networking",
+          "Canal da Nutrição Holística para receber atualizações semanais sobre wellness e mercado da saúde",
         ],
       },
       {
@@ -200,6 +202,8 @@ export const OFERTA = {
         precoValor: "R$ 3.997",
         precoSufixo: "",
         cta: "QUERO O ACESSO ANUAL",
+        // Identificador do produto enviado à API de leads (diferencia a oferta).
+        produto: "Formação + Meta Nutri Academy (Anual)",
       },
     ],
   },
