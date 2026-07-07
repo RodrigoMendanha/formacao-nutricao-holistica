@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { OFERTA } from "@/lib/data";
 import { CheckoutButton } from "@/components/ui/CheckoutButton";
-import { CHECKOUT } from "@/lib/site";
-import { Check } from "lucide-react";
+import { Cta } from "@/components/ui/Cta";
+import { CHECKOUT, WHATSAPP_LINK } from "@/lib/site";
+import { Check, MessageCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 /**
@@ -91,7 +92,10 @@ export function Oferta() {
               ))}
             </ul>
 
-            <div className="mt-7">
+            <div className="mt-7 flex flex-col items-center">
+              <span className="mb-3 inline-block rounded-full bg-deep px-3 py-1 text-[11px] font-semibold uppercase tracking-widest text-ink-light">
+                {formacao.precoLabel}
+              </span>
               <Preco
                 de={formacao.precoDe}
                 prefixo={formacao.precoPrefixo}
@@ -150,7 +154,7 @@ export function Oferta() {
             </div>
 
             {/* Planos de acesso */}
-            <div className="mt-7 grid gap-4 sm:grid-cols-2">
+            <div className="mt-7 grid gap-4">
               {combo.planos.map((plano, i) => (
                 <div
                   key={plano.label}
@@ -179,6 +183,14 @@ export function Oferta() {
               ))}
             </div>
           </article>
+        </div>
+
+        {/* Dúvidas sobre a inscrição — WhatsApp */}
+        <div className="mt-10 flex justify-center">
+          <Cta href={WHATSAPP_LINK} variant="outline-light" className="gap-2">
+            <MessageCircle className="h-5 w-5" aria-hidden="true" />
+            Quero tirar dúvida sobre a inscrição
+          </Cta>
         </div>
       </div>
     </section>
