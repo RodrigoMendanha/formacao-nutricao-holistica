@@ -8,11 +8,11 @@ const ICONS: Record<string, LucideIcon> = {
   clock: Clock,
 };
 
-/** Faixa de informações rápidas do programa (4 blocos). */
+/** Faixa de informações rápidas do programa (3 blocos). */
 export function InfoBar() {
   return (
     <section aria-label="Informações do programa" className="bg-deep text-ink-light">
-      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-px px-4 py-10 sm:gap-8 lg:grid-cols-4">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-px px-4 py-10 sm:grid-cols-3 sm:gap-8">
         {INFO_BAR.map((item) => {
           const Icon = ICONS[item.icone] ?? Calendar;
           return (

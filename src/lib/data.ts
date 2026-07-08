@@ -18,7 +18,6 @@ export const HERO = {
 // 3) Faixa de informações (ícone via chave)
 export const INFO_BAR = [
   { icone: "calendar", titulo: "INÍCIO DAS AULAS", valor: "IMEDIATO" },
-  { icone: "hourglass", titulo: "DURAÇÃO DO PROGRAMA", valor: "12 MESES" },
   { icone: "monitor", titulo: "COMO VAI FUNCIONAR", valor: "EAD 100% ONLINE" },
   { icone: "clock", titulo: "CARGA HORÁRIA", valor: "120 horas" },
 ];
