@@ -157,7 +157,7 @@ export const OFERTA = {
       // "Acesso por 6 meses à plataforma com todas as gravações e conteúdos extras",
     ],
     precoLabel: "6 MESES DE ACESSO",
-    precoDe: "De R$ 4.000",
+    precoDe: "De R$ 3.500",
     // Preço em 3 partes: prefixo (pequeno) / valor (grande) / sufixo (pequeno).
     precoPrefixo: "por apenas",
     precoValor: "R$ 1.997",
@@ -169,7 +169,7 @@ export const OFERTA = {
 
   // Card DIREITA — Formação + Meta Nutri Academy (2 logos), dois planos de acesso
   combo: {
-    titulo: "FORMAÇÃO NUTRIÇÃO HOLÍSTICA & META NUTRI ACADEMY",
+    titulo: "FORMAÇÃO NUTRIÇÃO HOLÍSTICA",
     grupos: [
       {
         titulo: "Formação Nutrição Holística:",
@@ -181,15 +181,6 @@ export const OFERTA = {
           "Material complementar exclusivo em cada módulo",
           "Mapeamento completo do paciente em todas as suas dimensões",
           "Canal da Nutrição Holística para receber atualizações semanais sobre wellness e mercado da saúde",
-        ],
-      },
-      {
-        titulo: "Meta Nutri Academy:",
-        itens: [
-          "Hotseats semanais",
-          "Área de membros exclusiva",
-          "Acesso a Ferramentas de I.A e de Captação e Vendas",
-          "Acesso ao time de Sucesso do Cliente",
         ],
       },
     ],

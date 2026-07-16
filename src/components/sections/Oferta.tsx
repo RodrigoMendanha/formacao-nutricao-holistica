@@ -124,7 +124,7 @@ export function Oferta() {
                 alt="Logo Formação em Nutrição Holística"
                 className="h-36 w-auto object-contain"
               />
-              <span aria-hidden="true" className="text-2xl font-light text-gold">
+              {/* <span aria-hidden="true" className="text-2xl font-light text-gold">
                 +
               </span>
               <Image
@@ -133,7 +133,7 @@ export function Oferta() {
                 height={64}
                 alt="Logo Meta Nutri Academy"
                 className="h-36 w-auto object-contain"
-              />
+              /> */}
             </div>
 
             <h3 className="mb-6 text-center font-bold text-xl font-bold text-gold">
@@ -144,7 +144,7 @@ export function Oferta() {
             <div className="flex flex-col gap-5">
               {combo.grupos.map((grupo) => (
                 <div key={grupo.titulo}>
-                  <p className="mb-2 text-sm font-bold text-white">{grupo.titulo}</p>
+                  {/* <p className="mb-2 text-sm font-bold text-white">{grupo.titulo}</p> */}
                   <ul className="flex flex-col gap-2 text-sm leading-relaxed text-ink-light/90">
                     {grupo.itens.map((item) => (
                       <li key={item} className="flex items-start gap-2.5">
