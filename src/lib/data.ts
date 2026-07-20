@@ -5,13 +5,13 @@
 
 // 1) Tarja de topo
 export const TARJA_TOPO =
-  "EXCLUSIVO PARA NUTRICIONISTAS E ESTUDANTES DE NUTRIÇÃO QUE DESEJAM TER UM DIFERENCIAL REAL NO MERCADO";
+  "Exclusivo para Nutricionistas que desejam aplicar o método da nutrição holística com segurança no consultório";
 
 // 2) Hero
 export const HERO = {
-  h1: "Nutri, faça parte da única Formação em Nutrição Holística do Brasil e se torne Referência no Mercado da Nutrição",
+  h1: "Nutri, faça parte da única Formação em Nutrição Holística do Brasil e transforme a forma como você conduz suas consultas",
   subtitulo:
-    "Destaque-se da massa com a única capacitação que integra Corpo, Mente e Espírito em um método científico comprovado e reconhecido pelo MEC",
+    "Aprenda a transformar a visão holística sobre saúde em consultas organizadas, científicas e que fazem o paciente sentir a diferença desde o primeiro atendimento",
   cta: "QUERO ME TORNAR NUTRICIONISTA HOLÍSTICA",
 };
 
