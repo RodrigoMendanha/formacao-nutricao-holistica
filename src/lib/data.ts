@@ -189,7 +189,7 @@ export const OFERTA = {
         label: "ACESSO ANUAL",
         precoDe: "De R$ 9.500",
         precoPrefixo: "por apenas",
-        precoValor: "R$ 3.000",
+        precoValor: "R$ 3.500",
         precoSufixo: "",
         cta: "QUERO O ACESSO ANUAL",
         // Identificador do produto enviado à API de leads (diferencia a oferta).
