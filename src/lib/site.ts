@@ -12,7 +12,7 @@ export const CHECKOUT_URL =
   "https://pay.voompcreators.com.br/9846/offer/tR12Hl";
 
 // Checkout do combo — Formação + Meta Nutri Academy.
-export const CHECKOUT_URL_ALT = "https://pay.voompcreators.com.br/9832/offer/uYmkER";
+export const CHECKOUT_URL_ALT = "https://pay.voompcreators.com.br/9832/offer/Oozwxc";
 
 // Checkout por plano da seção de ofertas.
 export const CHECKOUT = {
