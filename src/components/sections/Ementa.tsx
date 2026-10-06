@@ -18,7 +18,7 @@ export function Ementa() {
         <ul className="mt-10 flex flex-col gap-3">
           {EMENTA.modulos.map((modulo, i) => (
             <li
-              key={modulo}
+              key={modulo.titulo}
               className="flex items-center gap-4 rounded-xl border border-line-dark bg-white/[0.03] px-5 py-4 transition-colors hover:border-gold/50"
             >
               <span
@@ -27,8 +27,15 @@ export function Ementa() {
               >
                 <BookOpen className="h-4 w-4" />
               </span>
-              <span className="text-sm font-medium leading-snug text-ink-light sm:text-base">
-                {modulo}
+              <span className="flex flex-col gap-1">
+                <span className="text-sm font-medium leading-snug text-ink-light sm:text-base">
+                  {modulo.titulo}
+                </span>
+                {modulo.subtitulo && (
+                  <span className="text-xs leading-snug text-ink-light/60 sm:text-sm">
+                    {modulo.subtitulo}
+                  </span>
+                )}
               </span>
               <span className="sr-only">{`Módulo ${i + 1}`}</span>
             </li>
