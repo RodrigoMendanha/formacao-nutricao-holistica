@@ -8,9 +8,9 @@ export function Numeros() {
       aria-labelledby="numeros-title"
       className="relative isolate overflow-hidden bg-cream py-16 sm:py-20"
     >
-      {/* Fundo decorativo (motivo triangular do logo nos cantos) */}
+      {/* Fundo decorativo (motivo triangular do logo nos cantos, em dourado) */}
       <Image
-        src="/img/banner_metodo.png"
+        src="/img/banner_metodo_dourado.png"
         alt=""
         aria-hidden="true"
         fill
@@ -28,12 +28,12 @@ export function Numeros() {
           {NUMEROS.destaques.map((n) => (
             <div
               key={n.label}
-              className="rounded-2xl border border-line bg-paper p-8 text-center shadow-sm"
+              className="rounded-2xl border-2 border-deep/15 bg-paper p-8 text-center shadow-md"
             >
-              <div className="font-display text-4xl font-bold text-gold sm:text-5xl">
+              <div className="font-display text-4xl font-bold text-deep sm:text-5xl">
                 {n.valor}
               </div>
-              <div className="mt-2 text-sm font-medium text-ink-soft">{n.label}</div>
+              <div className="mt-2 text-sm font-semibold text-ink">{n.label}</div>
             </div>
           ))}
         </div>
