@@ -11,7 +11,7 @@ export function Numeros() {
       {/* Fundo decorativo — mesma imagem e enquadramento da sessão do Método,
           com os triângulos em dourado (mesmo tamanho nas duas sessões). */}
       <Image
-        src="/img/banner_numeros_dourado.jpg"
+        src="/img/banner_numeros_dourado_v2.jpg"
         alt=""
         aria-hidden="true"
         fill
