@@ -65,26 +65,75 @@ export const METODO = {
 export const EMENTA = {
   titulo: "CONHEÇA A EMENTA DA FORMAÇÃO EM NUTRIÇÃO HOLÍSTICA®",
   subtitulo: "Aqui está o que torna nosso programa único",
-  // subtitulo é opcional — aparece em letra menor embaixo do nome do módulo.
+  // Cada módulo: título + subtítulo (sempre visíveis) e descrição (abre ao clicar).
   modulos: [
-    { titulo: "MÓDULO 1: Introdução e Fundamentos do Holismo" },
-    { titulo: "MÓDULO 2: Visão Geral da Jornada" },
-    { titulo: "MÓDULO 3: A Linguagem da Cura" },
-    { titulo: "MÓDULO 4: As Colunas do Holismo" },
-    { titulo: "MÓDULO 5: Nutrição Funcional, Integrativa e Nutrição Holística" },
-    { titulo: "MÓDULO 6: A Biologia da Consciência e da Saúde" },
     {
-      titulo: "MÓDULO 7: Leitura Integral do Paciente",
-      subtitulo:
-        "Como investigar sinais, sintomas, contexto e padrões para ampliar o raciocínio nutricional",
+      titulo: "MÓDULO 1: Introdução e Fundamentos do Holismo",
+      subtitulo: "Como compreender os princípios do holismo e sua aplicação responsável à prática nutricional",
+      descricao:
+        "Neste módulo, a nutricionista entra nos fundamentos que sustentam a visão holística de saúde e aprende a olhar o paciente para além de informações isoladas. O objetivo é compreender a lógica de uma abordagem integral, sem abandonar a ciência nutricional nem ultrapassar os limites da profissão.",
     },
     {
-      titulo: "MÓDULO 8: Raciocínio Clínico Holístico",
-      subtitulo:
-        "Como conectar corpo, mente e contexto sem perder a ciência e os limites da Nutrição",
+      titulo: "MÓDULO 2: Visão Geral da Jornada",
+      subtitulo: "Como compreender as etapas da formação e a lógica da jornada clínica na Nutrição Holística",
+      descricao:
+        "Aqui, a nutricionista entende como os conteúdos da formação se conectam e qual é o caminho que será desenvolvido ao longo da jornada. É o módulo que organiza a visão do método e ajuda a perceber como escuta, investigação, raciocínio, ferramentas e conduta se integram dentro da prática clínica.",
     },
-    { titulo: "MÓDULO 9: Encontros Ao Vivo da Formação" },
-  ] as { titulo: string; subtitulo?: string }[],
+    {
+      titulo: "MÓDULO 3: A Linguagem da Cura",
+      subtitulo: "Como usar linguagem, escuta e perguntas para conduzir conversas clínicas com mais clareza",
+      descricao:
+        "Este módulo aprofunda a forma como a nutricionista se comunica durante a consulta. O foco está em escuta, linguagem e perguntas que ajudam o paciente a perceber melhor sua própria experiência, sem induzir respostas ou transformar interpretação em verdade. A profissional aprende a usar a comunicação como parte da condução clínica.",
+    },
+    {
+      titulo: "MÓDULO 4: As Colunas do Holismo",
+      subtitulo: "Como reconhecer as dimensões que sustentam a visão integral do paciente na prática clínica",
+      descricao:
+        "Neste módulo, a nutricionista compreende os principais pilares que organizam a leitura holística do paciente. A proposta é ampliar o olhar para diferentes dimensões da experiência humana e entender como elas podem ser consideradas na consulta de forma integrada, responsável e coerente com a atuação nutricional.",
+    },
+    {
+      titulo: "MÓDULO 5: Nutrição Funcional, Integrativa e Nutrição Holística",
+      subtitulo: "Como diferenciar as abordagens e compreender o lugar da Nutrição Holística na prática profissional",
+      descricao:
+        "Aqui, a nutricionista aprende a diferenciar abordagens que muitas vezes são tratadas como se fossem a mesma coisa. O módulo organiza os conceitos de Nutrição Funcional, Integrativa e Holística, mostrando seus pontos de aproximação, diferenças e o lugar específico da Nutrição Holística dentro da prática profissional.",
+    },
+    {
+      titulo: "MÓDULO 6: A Biologia da Consciência e da Saúde",
+      subtitulo: "Como compreender relações entre biologia, percepção, contexto e saúde sem confundir associação com causa",
+      descricao:
+        "Este módulo amplia a compreensão sobre como organismo, percepção, ambiente e experiência podem se relacionar com a saúde. O objetivo não é reduzir sintomas a emoções nem criar causalidades simplistas, mas oferecer bases para uma leitura mais contextual do paciente, mantendo a diferença entre evidência, associação e hipótese de investigação.",
+    },
+    {
+      titulo: "MÓDULO 7: Comportamento Alimentar e Padrões Automáticos",
+      subtitulo: "Como identificar crenças, gatilhos e padrões que influenciam o comportamento alimentar",
+      descricao:
+        "Neste módulo, a nutricionista aprende a olhar para o que acontece antes, durante e depois de determinados comportamentos alimentares. Crenças, gatilhos, pensamentos, emoções e respostas recorrentes passam a ser investigados como parte do contexto do paciente, ajudando a construir estratégias mais realistas e individualizadas.",
+    },
+    {
+      titulo: "MÓDULO 8: Leitura Integral do Paciente",
+      subtitulo: "Como investigar sinais, sintomas, contexto e padrões para ampliar o raciocínio nutricional",
+      descricao:
+        "Aqui começa uma das competências centrais da formação: aprender a investigar o paciente de forma mais ampla. A nutricionista desenvolve um olhar capaz de organizar sinais, sintomas, rotina, comportamentos e contexto, identificando o que merece aprofundamento sem transformar o relato em diagnóstico ou conclusão precipitada.",
+    },
+    {
+      titulo: "MÓDULO 9: Raciocínio Clínico Holístico",
+      subtitulo: "Como conectar corpo, mente e contexto sem perder a ciência e os limites da Nutrição",
+      descricao:
+        "Depois de aprender a investigar, a nutricionista aprende a organizar o que encontrou. Este módulo trabalha a conexão entre diferentes informações do caso, a construção de hipóteses de investigação, a identificação de prioridades e os limites da interpretação. O objetivo é ampliar o raciocínio sem perder rigor, prudência e responsabilidade profissional.",
+    },
+    {
+      titulo: "MÓDULO 10: Método da Consulta Holística",
+      subtitulo: "Como estruturar a consulta do início à conduta, com investigação, prioridades e acompanhamento",
+      descricao:
+        "Este módulo transforma os conhecimentos anteriores em uma forma organizada de atender. A nutricionista aprende a estruturar a consulta, compreender o que o paciente quer, o que precisa ser trabalhado e o que ele consegue sustentar naquele momento, aprofundar quando necessário e transformar a leitura do caso em prioridades, conduta e acompanhamento.",
+    },
+    {
+      titulo: "MÓDULO 11: Encontros Ao Vivo da Formação",
+      subtitulo: "Como integrar os conteúdos da formação por meio de dúvidas, casos e aplicação prática ao vivo",
+      descricao:
+        "Os encontros ao vivo são o espaço de integração da formação. Neles, os conteúdos estudados ganham contexto por meio de dúvidas, discussões, exemplos e aplicação prática. É o momento de conectar teoria, método e realidade clínica, aprofundando a segurança para levar a Nutrição Holística ao consultório.",
+    },
+  ],
   cta: "QUERO FAZER PARTE DA FORMAÇÃO",
 };
 
