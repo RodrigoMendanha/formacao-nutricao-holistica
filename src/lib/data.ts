@@ -82,12 +82,10 @@ export const EMENTA = {
 // 6) Números + selos
 export const NUMEROS = {
   destaques: [
-    { valor: "+3.500", label: "pacientes atendidos" },
+    { valor: "+4.000", label: "pacientes atendidos" },
     { valor: "+500", label: "nutricionistas capacitadas" },
-    { valor: "R$ 10 milhões", label: "gerados para mentoradas" },
-    { valor: "Certificação oficial", label: "como extensão universitária pela Anhanguera" },
+    { valor: "+ de R$ 15 milhões", label: "em vendas pelas mentoradas" },
     { valor: "Baseado em evidências científicas", label: "e práticas Holísticas reconhecidas" },
-    { valor: "Reconhecido pelo MEC", label: "única formação em Nutrição Holística no Brasil" },
   ],
   apoio: [],
 };

@@ -24,7 +24,7 @@ export function Numeros() {
         </h2>
 
         {/* Números em destaque */}
-        <div className="grid gap-6 sm:grid-cols-3">
+        <div className="mx-auto grid max-w-4xl gap-6 sm:grid-cols-2">
           {NUMEROS.destaques.map((n) => (
             <div
               key={n.label}
