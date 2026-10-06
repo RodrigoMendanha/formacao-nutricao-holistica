@@ -95,21 +95,15 @@ export const RESULTADOS = {
   titulo: "RESULTADO REAL",
   subtitulo:
     "Veja aqui alguns dos feedbacks de Nutricionistas que já aplicaram a metodologia holística e tiveram resultados mais que expressivos",
-  // Prints de tela de celular (retrato). Mostra 3 por vez no desktop.
-  // Adicione/remova quantos quiser — o carrossel se ajusta automaticamente.
-  // Substitua os arquivos em /public/img (resultado-1.jpg, resultado-2.jpg, ...).
+  // Cards 4:5 (1080x1350) com o print centralizado sobre fundo verde da marca.
+  // Mostra 3 por vez no desktop — o carrossel se ajusta a qualquer quantidade.
   imagens: [
-    { src: "/img/depoimentos/depoimento_1.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 1" },
-    { src: "/img/depoimentos/depoimento_2.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 2" },
-    { src: "/img/depoimentos/depoimento_3.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 3" },
-    { src: "/img/depoimentos/depoimento_4.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 4" },
-    { src: "/img/depoimentos/depoimento_5.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 5" },
-    { src: "/img/depoimentos/depoimento_6.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 6" },
-    { src: "/img/depoimentos/depoimento_7.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 7" },
-    { src: "/img/depoimentos/depoimento_8.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 8" },
-    { src: "/img/depoimentos/depoimento_9.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 9" },
-    { src: "/img/depoimentos/depoimento_10.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 10" },
-    { src: "/img/depoimentos/depoimento_11.png", alt: "Print de depoimento de nutricionista aplicando a Nutrição Holística — 11" },
+    { src: "/img/depoimentos/depoimento_1.jpg", alt: "Comentário da nutricionista Sandra Bastos no Instagram sobre a Nutrição Holística" },
+    { src: "/img/depoimentos/depoimento_2.jpg", alt: "Depoimento de Sabrina Gomes Brochado no chat da aula sobre a Formação em Nutrição Holística" },
+    { src: "/img/depoimentos/depoimento_3.jpg", alt: "Depoimento de Camila Soares no chat da aula sobre a Formação em Nutrição Holística" },
+    { src: "/img/depoimentos/depoimento_4.jpg", alt: "Depoimento de Hellen Ferraz no chat da aula da Formação em Nutrição Holística" },
+    { src: "/img/depoimentos/depoimento_5.jpg", alt: "Depoimento de aluna no chat da aula da Formação em Nutrição Holística" },
+    { src: "/img/depoimentos/depoimento_6.jpg", alt: "Turma da Formação em Nutrição Holística reunida em aula ao vivo" },
   ],
   cta: "QUERO TER RESULTADOS COMO ESSES",
 };

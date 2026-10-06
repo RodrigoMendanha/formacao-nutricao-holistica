@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 const GAP = 16; // px — precisa bater com o `gap-4` do track
 
 /**
- * Carrossel de resultados — prints de celular (retrato), 3 por view no desktop
+ * Carrossel de resultados — cards de depoimento (4:5), 3 por view no desktop
  * (2 no tablet, 1 no mobile) e navegação por página. Suporta qualquer número
  * de imagens. Acessível: setas ← →, swipe (scroll-snap) e dots.
  */
@@ -114,13 +114,13 @@ export function Resultados() {
                 aria-label={`${i + 1} de ${slides.length}`}
                 className="w-full shrink-0 snap-start sm:w-[calc((100%-1rem)/2)] lg:w-[calc((100%-2rem)/3)]"
               >
-                {/* Print de celular (retrato 9:16) */}
+                {/* Card de depoimento (4:5) */}
                 <Image
                   src={img.src}
                   width={1080}
-                  height={1920}
+                  height={1350}
                   alt={img.alt}
-                  className="aspect-9/16 w-full rounded-xl object-cover"
+                  className="aspect-4/5 w-full rounded-xl object-cover"
                   sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                 />
               </div>
