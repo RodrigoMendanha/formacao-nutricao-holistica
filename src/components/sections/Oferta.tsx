@@ -35,9 +35,8 @@ function Preco({
       <span className={cn("font-display font-bold leading-none text-gold", valorClassName)}>
         {valor}
       </span>
-      {sufixo && (
-        <span className="mt-1 text-sm font-medium text-ink-light/80">{sufixo}</span>
-      )}
+      {/* Linha sempre reservada para os cards ficarem com a mesma altura */}
+      <span className="mt-1 text-sm font-medium text-ink-light/80">{sufixo || "\u00a0"}</span>
     </div>
   );
 }
@@ -65,9 +64,9 @@ export function Oferta() {
           {OFERTA.titulo}
         </h2>
 
-        <div className="relative flex flex-col gap-6 md:flex-row md:items-center md:justify-center md:gap-0">
+        <div className="relative flex flex-col gap-6 md:flex-row md:items-stretch md:justify-center md:gap-6">
           {/* ESQUERDA — Formação (fica embaixo/atrás) */}
-          <article className="relative z-0 flex flex-col rounded-2xl border border-line-dark bg-white/[0.03] p-7 md:w-1/2 md:shrink-0 md:pr-14">
+          <article className="flex flex-col rounded-3xl border-2 border-gold/60 bg-dark p-7 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.7),0_0_50px_-12px_rgba(163,107,34,0.55)] md:w-1/2">
             {/* 1 logo */}
             <div className="mb-6 flex items-center justify-center">
               <Image
@@ -79,11 +78,11 @@ export function Oferta() {
               />
             </div>
 
-            <h3 className="mb-5 text-center font-display text-xl font-bold text-gold">
+            <h3 className="mb-6 text-center font-display text-xl font-bold text-gold">
               {formacao.titulo}
             </h3>
 
-            <ul className="flex flex-col gap-2.5 text-sm leading-relaxed text-ink-light/90">
+            <ul className="mb-7 flex flex-col gap-2 text-sm leading-relaxed text-ink-light/90">
               {formacao.itens.map((item) => (
                 <li key={item} className="flex items-start gap-2.5">
                   <Check className="mt-0.5 h-4 w-4 shrink-0 text-gold" aria-hidden="true" />
@@ -92,21 +91,24 @@ export function Oferta() {
               ))}
             </ul>
 
-            <div className="mt-7 flex flex-col items-center">
-              <span className="mb-3 inline-block rounded-full bg-deep px-3 py-1 text-[11px] font-semibold uppercase tracking-widest text-ink-light">
+            <div className="mt-auto flex flex-col rounded-2xl border border-gold/40 bg-white/[0.04] p-5 text-center">
+              <span className="inline-block self-center rounded-full bg-deep px-3 py-1 text-[11px] font-semibold uppercase tracking-widest text-ink-light">
                 {formacao.precoLabel}
               </span>
-              <Preco
-                de={formacao.precoDe}
-                prefixo={formacao.precoPrefixo}
-                valor={formacao.precoValor}
-                sufixo={formacao.precoSufixo}
-                valorClassName="text-4xl sm:text-5xl"
-              />
+              <div className="mt-3">
+                <Preco
+                  de={formacao.precoDe}
+                  prefixo={formacao.precoPrefixo}
+                  valor={formacao.precoValor}
+                  sufixo={formacao.precoSufixo}
+                  valorClassName="text-4xl"
+                />
+              </div>
               <CheckoutButton
                 href={CHECKOUT.formacao}
                 ticket={formacao.produto}
-                className="mt-5 w-full"
+                size="md"
+                className="mt-4 w-full"
               >
                 {formacao.cta}
               </CheckoutButton>
@@ -114,13 +116,13 @@ export function Oferta() {
           </article>
 
           {/* DIREITA — Combo em destaque (elevado e por cima) */}
-          <article className="relative z-10 flex flex-col rounded-3xl border-2 border-gold/60 bg-dark p-7 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.7),0_0_50px_-12px_rgba(163,107,34,0.55)] md:-ml-10 md:-mt-8 md:w-1/2 md:shrink-0">
+          <article className="flex flex-col rounded-3xl border-2 border-gold/60 bg-dark p-7 shadow-[0_20px_50px_-12px_rgba(0,0,0,0.7),0_0_50px_-12px_rgba(163,107,34,0.55)] md:w-1/2">
             {/* 2 logos */}
             <div className="mb-6 flex items-center justify-center gap-4">
               <Image
                 src="/img/logo-nutricao-holistica.png"
-                width={150}
-                height={64}
+                width={180}
+                height={72}
                 alt="Logo Formação em Nutrição Holística"
                 className="h-36 w-auto object-contain"
               />
@@ -136,7 +138,7 @@ export function Oferta() {
               /> */}
             </div>
 
-            <h3 className="mb-6 text-center font-bold text-xl font-bold text-gold">
+            <h3 className="mb-6 text-center font-display text-xl font-bold text-gold">
               {combo.titulo}
             </h3>
 
@@ -158,7 +160,7 @@ export function Oferta() {
             </div>
 
             {/* Planos de acesso */}
-            <div className="mt-7 grid gap-4">
+            <div className="mt-auto grid gap-4 pt-7">
               {combo.planos.map((plano, i) => (
                 <div
                   key={plano.label}
@@ -173,7 +175,7 @@ export function Oferta() {
                       prefixo={plano.precoPrefixo}
                       valor={plano.precoValor}
                       sufixo={plano.precoSufixo}
-                      valorClassName="text-3xl"
+                      valorClassName="text-4xl"
                     />
                   </div>
                   <CheckoutButton
