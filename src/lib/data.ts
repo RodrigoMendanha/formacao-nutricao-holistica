@@ -40,9 +40,9 @@ export const METODO = {
       icone: "list-checks",
       titulo: "COMO FUNCIONA:",
       itens: [
-        "Base científica validada pela universidade",
+        "Base científica sólida e atualizada",
         "Integração com práticas reconhecidas pela OMS",
-        "Protocolos exclusivos testados em mais de 3.500 pacientes",
+        "Protocolos exclusivos testados em mais de 4.000 pacientes",
         "Sistema de atendimento que gera resultados previsíveis e consistentes",
       ],
     },
@@ -131,7 +131,7 @@ export const PORQUE = {
     {
       titulo: "AUTORIDADE RECONHECIDA",
       texto:
-        "Você poderá se posicionar como Nutricionista Holística com uma formação chancelada pelo MEC. Este não é mais um curso – é uma extensão universitária com todo o conhecimento que você precisa para alcançar o nível mais elevado na sua carreira.",
+        "Você poderá se posicionar como Nutricionista Holística com a única formação em Nutrição Holística do Brasil. Este não é mais um curso – é uma formação completa, com todo o conhecimento que você precisa para alcançar o nível mais elevado na sua carreira.",
     },
   ],
   cta: "QUERO ME TORNAR NUTRICIONISTA HOLÍSTICA",
@@ -146,7 +146,6 @@ export const OFERTA = {
     titulo: "FORMAÇÃO NUTRIÇÃO HOLÍSTICA",
     itens: [
       "120 horas de conteúdo técnico, estratégico e aplicável no consultório",
-      "Formação 100% reconhecida e validada pelo MEC",
       "Encontros ao vivo para debater casos práticos",
       "Módulos completos com base nas ciências integrativas e modernas",
       "Material complementar exclusivo em cada módulo",
@@ -173,7 +172,6 @@ export const OFERTA = {
         titulo: "Formação Nutrição Holística:",
         itens: [
           "120 horas de conteúdo técnico, estratégico e aplicável no consultório",
-          "Formação 100% reconhecida e validada pelo MEC",
           "Encontros ao vivo para debater casos práticos",
           "Módulos completos com base nas ciências integrativas e modernas",
           "Material complementar exclusivo em cada módulo",
@@ -220,7 +218,7 @@ export const CRIADOR = {
     "Os resultados foram surpreendentes.",
     "Mas eu precisava de mais, participei de mais de 100 congressos e cursos, estudei diferentes linhas terapêuticas, testei protocolos, refinei a metodologia.",
     "Foi aí que nasceu a Nutrição Holística®, o método que tem transformado a vida de milhares de pacientes e centenas de nutricionistas pelo Brasil.",
-    "Hoje, depois de atender mais de 3.500 pacientes e mentorar mais de 500 nutricionistas, posso dizer com certeza:",
+    "Hoje, depois de atender mais de 4.000 pacientes e mentorar mais de 500 nutricionistas, posso dizer com certeza:",
     "Existe um caminho melhor. Um que une ciência e visão integral do ser humano, e é exatamente este caminho que quero compartilhar com você.",
   ],
 };
@@ -254,7 +252,7 @@ export const FAQ = {
     {
       pergunta: "Como funciona a certificação?",
       resposta:
-        "Você receberá um certificado de extensão universitária chancelado pelo MEC através da Universidade Anhanguera após concluir todas as aulas e atividades com aproveitamento mínimo de 70%.",
+        "Você receberá o certificado de conclusão da Formação em Nutrição Holística® após concluir todas as aulas e atividades com aproveitamento mínimo de 70%.",
     },
     {
       pergunta: "Tem suporte durante a Formação?",

@@ -34,7 +34,7 @@ export function JsonLd() {
       sameAs: SITE_URL,
     },
     inLanguage: "pt-BR",
-    educationalCredentialAwarded: "Certificado de extensão universitária (Anhanguera / MEC)",
+    educationalCredentialAwarded: "Certificado de conclusão da Formação em Nutrição Holística®",
     hasCourseInstance: {
       "@type": "CourseInstance",
       courseMode: "online",
