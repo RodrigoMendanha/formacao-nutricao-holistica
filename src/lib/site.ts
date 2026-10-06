@@ -48,7 +48,7 @@ export const CHECKOUT_MODAL_ENABLED = true;
 export const CLARITY_PROJECT_ID = process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID ?? "";
 
 // ── SEO ───────────────────────────────────────────────────────────────────
-export const SITE_TITLE = "Formação em Nutrição Holística® | A única Formação reconhecida pelo MEC para Nutricionistas";
+export const SITE_TITLE = "Formação em Nutrição Holística® | A única Formação em Nutrição Holística para Nutricionistas";
 export const SITE_DESCRIPTION =
   "Aprenda ou único método que integra corpo, mente e espírito para compreender o comportamento alimentar, conduzir pacientes com mais profundidade e transformar sua prática clínica.";
 export const OG_IMAGE = "/img/og-formacao-nutricao-holistica.jpg"; // 1200x630
@@ -61,7 +61,6 @@ export const SITE_KEYWORDS = [
   "Curso de Nutrição Holística",
   "Método Nutrição Holística",
   "Como se tornar Nutricionista Holística",
-  "Formação em Nutrição Holística reconhecida pelo MEC",
   "Curso para compreender comportamento alimentar na Nutrição",
 ];
 
