@@ -98,12 +98,12 @@ export const RESULTADOS = {
   // Cards 4:5 (1080x1350) com o print centralizado sobre fundo verde da marca.
   // Mostra 3 por vez no desktop — o carrossel se ajusta a qualquer quantidade.
   imagens: [
+    { src: "/img/depoimentos/depoimento_6.jpg", alt: "Turma da Formação em Nutrição Holística reunida em aula ao vivo" },
     { src: "/img/depoimentos/depoimento_1.jpg", alt: "Comentário da nutricionista Sandra Bastos no Instagram sobre a Nutrição Holística" },
     { src: "/img/depoimentos/depoimento_2.jpg", alt: "Depoimento de Sabrina Gomes Brochado no chat da aula sobre a Formação em Nutrição Holística" },
     { src: "/img/depoimentos/depoimento_3.jpg", alt: "Depoimento de Camila Soares no chat da aula sobre a Formação em Nutrição Holística" },
     { src: "/img/depoimentos/depoimento_4.jpg", alt: "Depoimento de Hellen Ferraz no chat da aula da Formação em Nutrição Holística" },
     { src: "/img/depoimentos/depoimento_5.jpg", alt: "Depoimento de aluna no chat da aula da Formação em Nutrição Holística" },
-    { src: "/img/depoimentos/depoimento_6.jpg", alt: "Turma da Formação em Nutrição Holística reunida em aula ao vivo" },
   ],
   cta: "QUERO TER RESULTADOS COMO ESSES",
 };
