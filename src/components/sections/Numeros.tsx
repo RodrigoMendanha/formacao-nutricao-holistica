@@ -30,7 +30,7 @@ export function Numeros() {
               key={n.label}
               className="rounded-2xl border-2 border-deep/15 bg-paper p-8 text-center shadow-md"
             >
-              <div className="font-display text-4xl font-bold text-deep sm:text-5xl">
+              <div className="font-display text-4xl font-bold text-[#1f5a45] sm:text-5xl">
                 {n.valor}
               </div>
               <div className="mt-2 text-sm font-semibold text-ink">{n.label}</div>
