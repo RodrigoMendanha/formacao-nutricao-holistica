@@ -6,25 +6,17 @@ export function Numeros() {
   return (
     <section
       aria-labelledby="numeros-title"
-      className="relative isolate overflow-hidden bg-[#e9e9e9] py-16 sm:py-20"
+      className="relative isolate overflow-hidden bg-cream py-16 sm:py-20"
     >
-      {/* Fundo decorativo — triângulos do logo em dourado, um em cada canto,
-          no tamanho do desenho original (acompanham a altura da seção). */}
+      {/* Fundo decorativo — mesma imagem e enquadramento da sessão do Método,
+          com os triângulos em dourado (mesmo tamanho nas duas sessões). */}
       <Image
-        src="/img/triangulo_dourado_esq.png"
+        src="/img/banner_numeros_dourado.jpg"
         alt=""
         aria-hidden="true"
-        width={505}
-        height={651}
-        className="pointer-events-none absolute left-0 top-1/2 -z-10 h-56 w-auto -translate-y-1/2 sm:h-[70%]"
-      />
-      <Image
-        src="/img/triangulo_dourado_dir.png"
-        alt=""
-        aria-hidden="true"
-        width={481}
-        height={651}
-        className="pointer-events-none absolute right-0 top-1/2 -z-10 h-56 w-auto -translate-y-1/2 sm:h-[70%]"
+        fill
+        sizes="100vw"
+        className="-z-10 object-cover object-center"
       />
 
       <div className="relative mx-auto max-w-6xl px-4">
