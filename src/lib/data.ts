@@ -65,17 +65,26 @@ export const METODO = {
 export const EMENTA = {
   titulo: "CONHEÇA A EMENTA DA FORMAÇÃO EM NUTRIÇÃO HOLÍSTICA®",
   subtitulo: "Aqui está o que torna nosso programa único",
+  // subtitulo é opcional — aparece em letra menor embaixo do nome do módulo.
   modulos: [
-    "MÓDULO 1: Introdução e Fundamentos do Holismo",
-    "MÓDULO 2: Visão Geral da Jornada",
-    "MÓDULO 3: A Linguagem da Cura",
-    "MÓDULO 4: As Colunas do Holismo",
-    "MÓDULO 5: Nutrição Funcional, Integrativa e Nutrição Holística",
-    "MÓDULO 6: A Biologia da Consciência e da Saúde",
-    "MÓDULO 7: O Corpo que Fala",
-    "MÓDULO 8: O Corpo que Revela",
-    "MÓDULO 9: Encontros Ao Vivo da Formação",
-  ],
+    { titulo: "MÓDULO 1: Introdução e Fundamentos do Holismo" },
+    { titulo: "MÓDULO 2: Visão Geral da Jornada" },
+    { titulo: "MÓDULO 3: A Linguagem da Cura" },
+    { titulo: "MÓDULO 4: As Colunas do Holismo" },
+    { titulo: "MÓDULO 5: Nutrição Funcional, Integrativa e Nutrição Holística" },
+    { titulo: "MÓDULO 6: A Biologia da Consciência e da Saúde" },
+    {
+      titulo: "MÓDULO 7: Leitura Integral do Paciente",
+      subtitulo:
+        "Como investigar sinais, sintomas, contexto e padrões para ampliar o raciocínio nutricional",
+    },
+    {
+      titulo: "MÓDULO 8: Raciocínio Clínico Holístico",
+      subtitulo:
+        "Como conectar corpo, mente e contexto sem perder a ciência e os limites da Nutrição",
+    },
+    { titulo: "MÓDULO 9: Encontros Ao Vivo da Formação" },
+  ] as { titulo: string; subtitulo?: string }[],
   cta: "QUERO FAZER PARTE DA FORMAÇÃO",
 };
 
