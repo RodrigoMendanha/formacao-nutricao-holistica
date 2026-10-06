@@ -7,18 +7,19 @@
 export const SITE_URL = "https://formacao-nutricao-holistica.rodrigomendanha.com.br/"; // <-- TROCAR pela URL final
 
 // ── Links de CTA (checkout) ───────────────────────────────────────────────
-// Checkout principal — só a Formação Nutrição Holística. Usado como padrão nos CTAs.
+// Checkout principal — Formação Nutrição Holística, 6 meses (R$ 1.997). Usado como padrão nos CTAs.
 export const CHECKOUT_URL =
-  "https://pay.voompcreators.com.br/9846/offer/tR12Hl";
+  "https://pay.simplles.com/DdEHu10if59Scb8H?offerCode=H78XaIAb";
 
-// Checkout do combo — Formação + Meta Nutri Academy.
-export const CHECKOUT_URL_ALT = "https://pay.voompcreators.com.br/9832/offer/Oozwxc";
+// Checkout do acesso anual (R$ 6.000).
+export const CHECKOUT_URL_ALT =
+  "https://pay.simplles.com/DdEHu10if59Scb8H?offerCode=mPIWgkEe";
 
 // Checkout por plano da seção de ofertas.
 export const CHECKOUT = {
-  // Card esquerda: só a Formação.
+  // Card esquerda: 6 meses de acesso (R$ 1.997).
   formacao: CHECKOUT_URL,
-  // Card direita: Formação + Meta Nutri Academy.
+  // Card direita: acesso anual (R$ 6.000).
   comboAnual: CHECKOUT_URL_ALT,
   comboSemestral: CHECKOUT_URL_ALT,
 };
