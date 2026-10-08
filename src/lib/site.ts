@@ -40,7 +40,7 @@ export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMERO}?text=${encodeURIC
 //   (nome/WhatsApp/e-mail → /api/leads) e só então redireciona pro checkout.
 // Quando FALSE (padrão AGORA): o botão vai direto pro checkout.
 // Basta trocar para `true` quando quiser ativar.
-export const CHECKOUT_MODAL_ENABLED = true;
+export const CHECKOUT_MODAL_ENABLED = false;
 
 // ── Microsoft Clarity (analytics / mapas de calor / gravações) ─────────────
 // ID do projeto no Clarity (https://clarity.microsoft.com → Settings → Overview).
