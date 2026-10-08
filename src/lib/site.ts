@@ -11,7 +11,7 @@ export const SITE_URL = "https://formacao-nutricao-holistica.rodrigomendanha.com
 export const CHECKOUT_URL =
   "https://pay.simplles.com/DdEHu10if59Scb8H?offerCode=H78XaIAb";
 
-// Checkout do acesso anual (R$ 6.000).
+// Checkout do acesso anual (R$ 3.500, de R$ 6.000).
 export const CHECKOUT_URL_ALT =
   "https://pay.simplles.com/DdEHu10if59Scb8H?offerCode=mPIWgkEe";
 
@@ -19,7 +19,7 @@ export const CHECKOUT_URL_ALT =
 export const CHECKOUT = {
   // Card esquerda: 6 meses de acesso (R$ 1.997).
   formacao: CHECKOUT_URL,
-  // Card direita: acesso anual (R$ 6.000).
+  // Card direita: acesso anual (R$ 3.500).
   comboAnual: CHECKOUT_URL_ALT,
   comboSemestral: CHECKOUT_URL_ALT,
 };

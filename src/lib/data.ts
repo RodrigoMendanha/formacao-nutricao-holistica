@@ -235,9 +235,9 @@ export const OFERTA = {
     planos: [
       {
         label: "ACESSO ANUAL",
-        precoDe: "De R$ 9.500",
+        precoDe: "De R$ 6.000",
         precoPrefixo: "por apenas",
-        precoValor: "R$ 6.000",
+        precoValor: "R$ 3.500",
         precoSufixo: "",
         cta: "QUERO O ACESSO ANUAL",
         // Identificador do produto enviado à API de leads (diferencia a oferta).
