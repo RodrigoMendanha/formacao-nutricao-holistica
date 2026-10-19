@@ -232,9 +232,19 @@ export const OFERTA = {
         ],
       },
     ],
+    // Bônus exclusivo do acesso anual (bloco destacado abaixo da lista).
+    bonus: {
+      etiqueta: "BÔNUS EXCLUSIVO DO ACESSO ANUAL",
+      nome: "Holohacking",
+      descricao: "Software da Nutrição Holística",
+      valor: "R$ 997",
+      nota: "Incluso no acesso anual",
+    },
     planos: [
       {
         label: "ACESSO ANUAL",
+        // Selo de campanha exibido sobre o bloco de preço.
+        selo: "BLACK HOLOS",
         precoDe: "De R$ 6.000",
         precoPrefixo: "por apenas",
         precoValor: "R$ 3.500",

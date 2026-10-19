@@ -3,7 +3,7 @@ import { OFERTA } from "@/lib/data";
 import { CheckoutButton } from "@/components/ui/CheckoutButton";
 import { Cta } from "@/components/ui/Cta";
 import { CHECKOUT, WHATSAPP_LINK } from "@/lib/site";
-import { Check, MessageCircle } from "lucide-react";
+import { Check, Gift, MessageCircle, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 /**
@@ -92,7 +92,7 @@ export function Oferta() {
             </ul>
 
             <div className="mt-auto flex flex-col rounded-2xl border border-gold/40 bg-white/[0.04] p-5 text-center">
-              <span className="inline-block self-center rounded-full bg-deep px-3 py-1 text-[11px] font-semibold uppercase tracking-widest text-ink-light">
+              <span className="inline-block self-center rounded-full bg-white px-3 py-1 text-[11px] font-bold uppercase tracking-widest text-[#1f5a45]">
                 {formacao.precoLabel}
               </span>
               <div className="mt-3">
@@ -159,14 +159,57 @@ export function Oferta() {
               ))}
             </div>
 
+            {/* Bônus do acesso anual */}
+            <div className="mt-6 rounded-2xl border border-gold/60 bg-gold/10 p-4">
+              <div className="flex items-start gap-3.5">
+                <span
+                  aria-hidden="true"
+                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gold text-dark"
+                >
+                  <Gift className="h-5 w-5" />
+                </span>
+                <div className="flex flex-1 flex-col gap-1">
+                  <span className="text-[11px] font-bold uppercase tracking-widest text-gold-light">
+                    {combo.bonus.etiqueta}
+                  </span>
+                  <p className="text-sm leading-snug text-white">
+                    <strong className="font-bold">{combo.bonus.nome}</strong>
+                    {" — "}
+                    {combo.bonus.descricao}
+                  </p>
+                  <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1.5">
+                    <span className="text-xs text-ink-light/70">
+                      Valor: <span className="line-through">{combo.bonus.valor}</span>
+                    </span>
+                    <span className="rounded-full bg-white px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-wide text-[#1f5a45]">
+                      {combo.bonus.nota}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Planos de acesso */}
             <div className="mt-auto grid gap-4 pt-7">
               {combo.planos.map((plano, i) => (
                 <div
                   key={plano.label}
-                  className="flex flex-col rounded-2xl border border-gold/40 bg-white/[0.04] p-5 text-center"
+                  className={cn(
+                    "relative flex flex-col rounded-2xl border border-gold/40 bg-white/[0.04] p-5 text-center",
+                    plano.selo && "mt-4 pt-8"
+                  )}
                 >
-                  <span className="inline-block self-center rounded-full bg-deep px-3 py-1 text-[11px] font-semibold uppercase tracking-widest text-ink-light">
+                  {/* Selo de campanha (Black Holos) */}
+                  {plano.selo && (
+                    <span className="absolute -top-4 left-1/2 inline-flex -translate-x-1/2 items-center gap-2 whitespace-nowrap rounded-full border border-gold-light bg-black px-5 py-1.5 shadow-[0_6px_20px_-6px_rgba(201,161,91,0.7)]">
+                      <Sparkles className="h-3.5 w-3.5 text-gold-light" aria-hidden="true" />
+                      <span className="bg-gradient-to-r from-[#c9a15b] via-[#f3dfae] to-[#c9a15b] bg-clip-text font-display text-sm font-bold tracking-[0.25em] text-transparent">
+                        {plano.selo}
+                      </span>
+                      <Sparkles className="h-3.5 w-3.5 text-gold-light" aria-hidden="true" />
+                    </span>
+                  )}
+                  <span className="inline-block self-center rounded-full bg-white px-3 py-1 text-[11px] font-bold uppercase tracking-widest text-[#1f5a45]">
                     {plano.label}
                   </span>
                   <div className="mt-3">
