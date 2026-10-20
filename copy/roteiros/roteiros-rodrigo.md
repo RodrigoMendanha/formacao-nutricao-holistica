@@ -94,52 +94,56 @@ você precisa olhar para aquilo que está acontecendo ao redor dele.
 
 ---
 
-## R03 · Holohacking — “E se o método estivesse dentro da sua consulta?”
+## R03 · Holohacking — “Imagina terminar a consulta enxergando o paciente por inteiro”
 
-*Trechos marcados com [VALIDAR] dependem das funções reais do software (ver `copy/03-holohacking.md`).*
+*Anúncio de venda do Holohacking (sem Formação e sem Black Holos). Trechos [VALIDAR] dependem das funções reais do software.*
 
-**Gancho (texto na tela):** E se o método estivesse dentro da sua consulta?
+**Gancho (texto na tela):** Imagina terminar a consulta enxergando o seu paciente por inteiro.
 
-Você faz uma formação.
+Imagina terminar uma consulta com a sensação de que você realmente enxergou o seu paciente.
 
-Aprende um novo jeito de olhar para o paciente.
+Não só o que ele come.
 
-Sai cheia de ideias.
+Mas a rotina.
 
-Aí chega a segunda-feira.
+Os padrões.
 
-O paciente senta na sua frente.
+As emoções.
 
-A agenda está corrida.
+O contexto que está por trás de cada escolha no prato.
 
-E, sem perceber, você volta a atender do jeito de sempre.
+Tudo organizado. Na sua frente. Com clareza.
 
-Não porque não aprendeu.
+É isso que o Holohacking faz.
 
-Mas porque, na correria da consulta, é difícil lembrar de tudo.
+O Holohacking é o software da Nutrição Holística.
 
-Foi pensando nesse momento que nasceu o Holohacking.
+Ele foi criado para que você conduza a consulta com o olhar integral do método, sem precisar decorar nada, sem perder informação no meio do caminho e sem depender de anotações soltas.
 
-O software da Nutrição Holística.
+Na prática, isso muda tudo.
 
-Ele foi criado para levar o método para dentro do atendimento e ajudar você a organizar o que importa sobre aquele paciente: [VALIDAR: o que o software organiza — ex.: alimentação, rotina, sintomas, emoções, padrões e história].
+Você conduz a consulta com mais segurança, porque sabe o que investigar.
 
-Para que a leitura integral não dependa só da sua memória.
+Você enxerga conexões que antes passavam despercebidas.
 
-E aconteça em toda consulta, com cada paciente.
+Você define prioridades com muito mais clareza.
 
-Não para pensar por você.
+E você ganha tempo, porque o raciocínio já chega organizado. [VALIDAR]
 
-Não para substituir o seu raciocínio clínico.
+E o seu paciente sente.
 
-Mas para apoiar esse raciocínio com mais clareza e organização.
+Ele percebe que aquela consulta é diferente de tudo o que já viveu.
+
+Que alguém finalmente olhou para ele por inteiro.
+
+E paciente que se sente visto confia, volta e indica.
+
+Enquanto a maioria ainda atende com papel, planilha e memória, você atende com um sistema criado a partir do Método da Nutrição Holística, construído em mais de 4.000 atendimentos.
 
 [CENA: demonstração de tela do Holohacking — VALIDAR]
 
-Porque aprender um método é o primeiro passo.
+Não para substituir o seu raciocínio clínico.
 
-Aplicar com consistência é o que faz o paciente sentir a diferença.
+Para potencializar ele.
 
-**CTA:** O Holohacking está incluso no Acesso Anual da Formação em Nutrição Holística. Se você é nutricionista e quer levar esse olhar para todos os seus atendimentos, clica aqui e conheça.
-
-**CTA alternativo (durante a Black Holos):** Na Black Holos, o Acesso Anual da Formação sai de R$ 6.000 por R$ 3.500, com o Holohacking incluso. Clica aqui e garanta o seu.
+**CTA:** Se você é nutricionista e quer levar a sua consulta para outro nível, clica aqui, conheça o Holohacking e garanta o seu acesso.
