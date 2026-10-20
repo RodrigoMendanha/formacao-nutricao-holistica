@@ -46,3 +46,16 @@ Se isso faz sentido para você, conheça a Formação em Nutrição Holística. 
 ## Variações de capa para teste
 - O paciente não deixa a vida dele do lado de fora do consultório.
 - Seu paciente é maior do que aquilo que está no prato.
+
+---
+
+## Versão anúncio — 5 cartões (pasta `anuncio-5-cartoes/`)
+Dois formatos com o mesmo conteúdo: `4x5/` (1080×1350, feed) e `1x1/` (1080×1080, todos os posicionamentos).
+
+1. **Capa (foto do Rodrigo):** Seu paciente não chega à consulta trazendo só o que come. · Arraste para o lado →
+2. Ele chega trazendo também: rotina · sono · hábitos · emoções · crenças · relações · contexto · objetivos. E uma história inteira.
+3. **O ponto é:** Alimentação nunca acontece isolada do resto da vida.
+4. A Nutrição Holística amplia o olhar. Corpo · Mente · Espírito. Sem abandonar a ciência. Dentro dos limites da Nutrição.
+5. Uma pessoa inteira não pode ser compreendida olhando apenas para uma parte dela. · Conheça a Formação em Nutrição Holística. · [SAIBA MAIS]
+
+Texto principal, título, descrição e botão: os mesmos da seção “Anúncio Meta (carrossel)” acima.
