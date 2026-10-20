@@ -255,7 +255,7 @@ Você ganha estrutura e clareza. O paciente sai com direção.
 
 ---
 
-## R01-C · Versão curta do R01 (~45s a 1min)
+## R01-C · Versão curta do R01 (~55s)
 
 Nutri, me responde com sinceridade: quantos pacientes já saíram da sua consulta com o plano perfeito… e nunca mais voltaram?
 
@@ -263,15 +263,15 @@ Não foi falta de conhecimento seu. O problema é que o seu paciente não é “
 
 Ele come à noite porque é a única hora do dia que é dele. Ele sabe exatamente o que fazer — e é justamente por isso que se sente culpado quando não faz.
 
-Foi o que eu vi em mais de 4.000 atendimentos. E foi daí que nasceu o Método da Nutrição Holística®: olhar corpo, mente e contexto do paciente juntos, com ciência e dentro dos limites da Nutrição.
+Foi o que eu vi em mais de 4.000 atendimentos. E foi daí que nasceu o Método da Nutrição Holística®: olhar corpo, mente e espírito do paciente juntos, com ciência e dentro dos limites da Nutrição.
 
-Mais de 500 nutricionistas já atendem assim.
+O resultado é um paciente que sente a diferença já na primeira consulta. Mais de 500 nutricionistas já atendem assim.
 
 **CTA:** Clica em “Saiba mais” e conheça a Formação em Nutrição Holística®.
 
 ---
 
-## R02-C · Versão curta do R02 (~45s a 55s)
+## R02-C · Versão curta do R02 (~1min)
 
 O que acontece quando o problema não está só no prato?
 
@@ -280,5 +280,7 @@ O seu paciente chega na consulta. Você avalia, coleta as informações e monta 
 Talvez o ponto seja justamente esse: a alimentação não acontece isolada do resto da vida. Esse paciente também tem rotina, emoções, crenças, uma história.
 
 É a partir desse olhar que nasce a Nutrição Holística. Não para abandonar a ciência. Mas para ampliar o olhar sobre a pessoa que está na sua frente.
+
+Porque, às vezes, para compreender melhor o que está acontecendo no prato… você precisa olhar para aquilo que está acontecendo ao redor dele.
 
 **CTA:** Se você é nutricionista e quer conhecer essa forma de enxergar o atendimento, clica aqui e conheça a Nutrição Holística.
