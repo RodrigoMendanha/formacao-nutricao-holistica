@@ -203,3 +203,74 @@ Seu raciocínio clínico, potencializado. E um paciente que sente a diferença.
 - Regravar por bloco, não o vídeo inteiro. Máximo 3 tentativas por bloco — se não sair, o texto é que precisa mudar.
 - Gravar os 5 ganchos em sequência na mesma sessão; deixar espaço no topo e embaixo do quadro para as legendas.
 - Legenda queimada no vídeo do início ao fim (a maioria assiste sem som).
+
+---
+
+## R05 · Holohacking — Anúncio Meta “Você sabe o que significa Holohacking?” (curiosidade, ~45s)
+
+*Afirmações sobre o que o software faz estão marcadas com [VALIDAR].*
+
+| Tempo | Cena | Texto na tela | Fala |
+|---|---|---|---|
+| 0–3s | Close, já falando | **HOLO + HACKING. Sabe o que significa?** | Holohacking. Você sabe o que esse nome significa? |
+| 3–10s | Plano médio | HOLO = o todo · HACKING = o atalho | Holo vem de *holos*: o todo, o ser humano por inteiro. Hacking é encontrar o atalho inteligente pra algo que parecia complicado. |
+| 10–18s | Close | Alimentação · Rotina · Padrões · Emoções · Contexto | E o que parecia complicado era isso: enxergar o paciente por inteiro — alimentação, rotina, padrões, emoções, contexto — dentro do tempo de uma consulta. |
+| 18–24s | Plano médio | Todas sabem que importa. Poucas conseguem. | Toda nutri sabe que isso importa. Pouquíssimas conseguem fazer isso em todo atendimento. |
+| 24–36s | Tela do software [VALIDAR] + Rodrigo no canto | **Holohacking: o software da Nutrição Holística** | O Holohacking é o software que faz esse atalho. Ele organiza a leitura integral do paciente pra você [VALIDAR], pra que nada importante se perca e você saiba exatamente onde aprofundar. |
+| 36–41s | Close | Uma consulta que ele nunca viveu. | O resultado? Uma consulta que o seu paciente nunca viveu antes. E uma nutri que ele não troca por nenhuma outra. |
+| 41–45s | Close, apontando para o botão | **Descubra o Holohacking 👇** | Agora você sabe o que significa Holohacking. Clica em “Saiba mais” e descobre o que ele pode fazer na sua consulta. |
+
+**Ganchos para testar:**
+1. Holohacking. Você sabe o que esse nome significa?
+2. Existe um atalho pra enxergar o paciente por inteiro. E ele tem nome.
+3. Por que eu dei o nome de Holohacking pra esse software?
+
+**Texto do anúncio:**
+Holo = o todo. Hacking = o atalho.
+
+Enxergar o paciente por inteiro — alimentação, rotina, padrões, emoções e contexto — dentro do tempo de uma consulta sempre pareceu complicado.
+
+O Holohacking é o software da Nutrição Holística criado para ser esse atalho: para que nada importante se perca e você saiba exatamente onde aprofundar. [VALIDAR]
+
+Uma consulta que o seu paciente nunca viveu. E uma nutri que ele não troca por nenhuma outra.
+
+👉 Toque em “Saiba mais” e descubra o Holohacking.
+
+**Título:** Holohacking: o atalho para enxergar o paciente por inteiro
+**Descrição:** O software da Nutrição Holística
+**Botão:** Saiba mais
+
+---
+
+## R06 · Holohacking — Anúncio Meta “Ninguém nunca tinha me perguntado isso” (desejo, ~50s)
+
+*Afirmações sobre o que o software faz estão marcadas com [VALIDAR].*
+
+| Tempo | Cena | Texto na tela | Fala |
+|---|---|---|---|
+| 0–3s | Close, já falando | **“Ninguém nunca tinha me perguntado isso.”** | Nutri, imagina ouvir isso do seu paciente no fim da consulta: “ninguém nunca tinha me perguntado isso”. |
+| 3–12s | Plano médio, tom mais baixo | Não é mais uma dieta. | É nesse momento que ele entende que essa consulta é diferente. Que não é mais uma dieta. Que alguém finalmente olhou pra ele por inteiro. |
+| 12–20s | Close | Em TODA consulta. | Agora imagina isso acontecendo em toda consulta. Não só quando você está inspirada. Não só quando a agenda está tranquila. |
+| 20–36s | Tela do software [VALIDAR] + Rodrigo no canto | **Holohacking: o software da Nutrição Holística** ✔ O que perguntar ✔ O que observar ✔ O próximo passo | É pra isso que existe o Holohacking, o software da Nutrição Holística. Ele te guia pela leitura integral do paciente [VALIDAR], pra você saber o que perguntar, enxergar o que antes passava despercebido e sair da consulta com clareza do próximo passo. |
+| 36–44s | Close | Você: segurança. Paciente: confiança. | Você ganha segurança. O paciente ganha confiança. E paciente que confia volta, fica e indica. |
+| 44–50s | Close, apontando para o botão | **Conheça o Holohacking 👇** | Clica em “Saiba mais” e conhece o Holohacking. A próxima frase que você vai ouvir no consultório pode ser essa. |
+
+**Ganchos para testar:**
+1. Nutri, imagina ouvir isso do seu paciente: “ninguém nunca tinha me perguntado isso”.
+2. Qual foi a última vez que um paciente saiu da sua consulta surpreso?
+3. Existe uma frase que todo paciente fala quando a consulta é diferente.
+
+**Texto do anúncio:**
+“Ninguém nunca tinha me perguntado isso.”
+
+É a frase do paciente que percebe que aquela consulta é diferente. Que não é mais uma dieta. Que alguém finalmente olhou pra ele por inteiro.
+
+O Holohacking, o software da Nutrição Holística, foi criado para que isso aconteça em toda consulta: você sabe o que perguntar, enxerga o que antes passava despercebido e sai do atendimento com clareza do próximo passo. [VALIDAR]
+
+Você ganha segurança. O paciente ganha confiança. E paciente que confia volta, fica e indica.
+
+👉 Toque em “Saiba mais” e conheça o Holohacking.
+
+**Título:** A consulta que o seu paciente nunca esquece
+**Descrição:** Holohacking, o software da Nutrição Holística
+**Botão:** Saiba mais
