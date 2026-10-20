@@ -147,3 +147,59 @@ Não para substituir o seu raciocínio clínico.
 Para potencializar ele.
 
 **CTA:** Se você é nutricionista e quer levar a sua consulta para outro nível, clica aqui, conheça o Holohacking e garanta o seu acesso.
+
+---
+
+## R04 · Holohacking — Anúncio Meta Ads (versão completa para tráfego pago)
+
+*Rodrigo falando para a câmera · 9:16 (Reels/Stories) + 4:5 (Feed) · ~55s · objetivo: conhecer e comprar.
+Sem Formação e sem Black Holos. Afirmações sobre o que o software faz estão marcadas com [VALIDAR].*
+
+### Versão principal (~55s)
+
+| Tempo | Cena | Texto na tela | Fala |
+|---|---|---|---|
+| 0–3s | Close no Rodrigo, já falando (sem “oi”) | **Quanto do seu paciente fica de fora da consulta?** | Nutri, quanto do seu paciente fica de fora da sua consulta? |
+| 3–10s | Corte para plano médio | Rotina · Padrões · Emoções · Contexto | A rotina. Os padrões. As emoções. O contexto por trás de cada escolha no prato. Na correria do atendimento, quase tudo isso se perde em anotação solta. |
+| 10–16s | Volta ao close | **Holohacking — o software da Nutrição Holística** | Foi pra resolver isso que eu criei o Holohacking. O software da Nutrição Holística. |
+| 16–32s | Gravação de tela do software [VALIDAR] com o Rodrigo no canto | ✔ Saiba o que investigar ✔ Enxergue conexões ✔ Defina prioridades | Com ele, você conduz a consulta com o olhar integral do método. Sabe o que investigar, enxerga conexões que antes passavam despercebidas e define prioridades com muito mais clareza. Sem precisar decorar nada. [VALIDAR] |
+| 32–42s | Close, tom mais baixo | **Paciente que se sente visto confia, volta e indica.** | E o paciente sente. Ele percebe que, finalmente, alguém olhou pra ele por inteiro. E paciente que se sente visto confia, volta e indica. |
+| 42–48s | Plano médio | Não substitui seu raciocínio. Potencializa. | O Holohacking não pensa por você. Ele potencializa o seu raciocínio clínico. |
+| 48–55s | Close, apontando para baixo (botão) | **Conheça o Holohacking 👇** | Clica em “Saiba mais”, conhece o Holohacking e garante o seu. Pra que nada do seu paciente fique de fora da sua consulta. |
+
+*A última frase volta ao gancho (“fica de fora”), fechando o ciclo — quem assiste de novo cai direto na pergunta inicial.*
+
+### 5 ganchos para gravar e testar (só os 3 primeiros segundos)
+1. Nutri, quanto do seu paciente fica de fora da sua consulta?
+2. Imagina terminar a consulta enxergando o seu paciente por inteiro.
+3. Você não esquece o método por falta de estudo. Esquece por falta de sistema.
+4. Papel, planilha e memória não são método.
+5. O que a nutri que o paciente indica faz de diferente na consulta?
+
+### Corte curto para Stories (~20s)
+Nutri, quanto do seu paciente fica de fora da sua consulta?
+Rotina, padrões, emoções, contexto…
+O Holohacking é o software da Nutrição Holística. Ele te ajuda a conduzir a consulta com o olhar integral do método, com segurança e clareza. [VALIDAR]
+Clica e conhece. Pra que nada do seu paciente fique de fora.
+
+### Texto do anúncio (Meta)
+**Texto principal:**
+Nutri, a rotina, os padrões, as emoções e o contexto do seu paciente não podem ficar perdidos em anotações soltas.
+
+O Holohacking é o software da Nutrição Holística: criado para você conduzir cada consulta com o olhar integral do método — sabendo o que investigar, enxergando conexões e definindo prioridades com clareza.
+
+Seu raciocínio clínico, potencializado. E um paciente que sente a diferença.
+
+👉 Toque em “Saiba mais” e conheça o Holohacking.
+
+**Título:** Holohacking — o software da Nutrição Holística
+**Descrição:** Para nutricionistas que enxergam o paciente por inteiro
+**Botão:** Saiba mais
+
+### Notas de gravação para o Rodrigo
+- Celular na altura dos olhos, de frente para a janela (luz nunca atrás), microfone de lapela.
+- Decorar só a **primeira e a última frase**; o meio, falar com as próprias palavras seguindo os blocos.
+- Começar já falando, com ~20% mais energia do que parece natural. Falar para **uma** nutri.
+- Regravar por bloco, não o vídeo inteiro. Máximo 3 tentativas por bloco — se não sair, o texto é que precisa mudar.
+- Gravar os 5 ganchos em sequência na mesma sessão; deixar espaço no topo e embaixo do quadro para as legendas.
+- Legenda queimada no vídeo do início ao fim (a maioria assiste sem som).
