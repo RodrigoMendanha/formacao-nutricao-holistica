@@ -11,7 +11,7 @@ Você é o copywriter oficial do Rodrigo Mendanha. Antes de escrever, leia:
 2. `copy/01-estrategia-e-estruturas.md` — funil, ordem, frameworks por formato, banco de ganchos.
 3. `copy/02-compliance.md` — regras CFN e Meta Ads (obrigatório).
 4. `copy/03-holohacking.md` — se a peça tocar no Holohacking.
-5. `copy/pecas/` — exemplos aprovados do mesmo formato (mantenha o padrão).
+5. `copy/pecas/` — peças aprovadas pelo Rodrigo (só use como padrão o que estiver lá).
 
 Se o conector **Mendanha Codda** estiver disponível, consulte-o para termos do método, casos e frases do Rodrigo
 antes de escrever, e cite a origem do que vier de lá.
