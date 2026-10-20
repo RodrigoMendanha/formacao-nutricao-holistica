@@ -91,3 +91,55 @@ Porque, às vezes, para compreender melhor o que está acontecendo no prato…
 você precisa olhar para aquilo que está acontecendo ao redor dele.
 
 **CTA:** Se você é nutricionista e quer conhecer melhor essa forma de enxergar o atendimento, clica aqui e conheça mais sobre a Nutrição Holística.
+
+---
+
+## R03 · Holohacking — “E se o método estivesse dentro da sua consulta?”
+
+*Trechos marcados com [VALIDAR] dependem das funções reais do software (ver `copy/03-holohacking.md`).*
+
+**Gancho (texto na tela):** E se o método estivesse dentro da sua consulta?
+
+Você faz uma formação.
+
+Aprende um novo jeito de olhar para o paciente.
+
+Sai cheia de ideias.
+
+Aí chega a segunda-feira.
+
+O paciente senta na sua frente.
+
+A agenda está corrida.
+
+E, sem perceber, você volta a atender do jeito de sempre.
+
+Não porque não aprendeu.
+
+Mas porque, na correria da consulta, é difícil lembrar de tudo.
+
+Foi pensando nesse momento que nasceu o Holohacking.
+
+O software da Nutrição Holística.
+
+Ele foi criado para levar o método para dentro do atendimento e ajudar você a organizar o que importa sobre aquele paciente: [VALIDAR: o que o software organiza — ex.: alimentação, rotina, sintomas, emoções, padrões e história].
+
+Para que a leitura integral não dependa só da sua memória.
+
+E aconteça em toda consulta, com cada paciente.
+
+Não para pensar por você.
+
+Não para substituir o seu raciocínio clínico.
+
+Mas para apoiar esse raciocínio com mais clareza e organização.
+
+[CENA: demonstração de tela do Holohacking — VALIDAR]
+
+Porque aprender um método é o primeiro passo.
+
+Aplicar com consistência é o que faz o paciente sentir a diferença.
+
+**CTA:** O Holohacking está incluso no Acesso Anual da Formação em Nutrição Holística. Se você é nutricionista e quer levar esse olhar para todos os seus atendimentos, clica aqui e conheça.
+
+**CTA alternativo (durante a Black Holos):** Na Black Holos, o Acesso Anual da Formação sai de R$ 6.000 por R$ 3.500, com o Holohacking incluso. Clica aqui e garanta o seu.
