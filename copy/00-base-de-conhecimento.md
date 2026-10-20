@@ -1,4 +1,4 @@
-# 00 · Base de Conhecimento — Nutrição Holística® e Holohacking
+# 00 · Base de Conhecimento — Nutrição Holística® e HoloHacking
 
 > Fonte única de verdade para toda copy. Extraída da landing page oficial (`src/lib/data.ts`).
 > Quando o conector **Mendanha Codda** estiver autorizado, complementar esta base com o que a IA de lá tiver
@@ -11,8 +11,8 @@
 | Produto | O que é | Preço | Público |
 |---|---|---|---|
 | **Formação em Nutrição Holística®** (6 meses) | Formação EAD 100% online, 120h, 11 módulos + encontros ao vivo, início imediato, certificado | De R$ 3.500 **por R$ 1.997 à vista** | Nutricionistas formadas |
-| **Acesso Anual — “Black Holos”** | Formação completa + **Holohacking** (bônus) | De R$ 6.000 **por R$ 3.500** | Nutricionistas que querem o pacote completo |
-| **Holohacking** | Software da Nutrição Holística (bônus avaliado em R$ 997, incluso no anual) | R$ 997 (valor de ancoragem) | Nutricionistas alunas |
+| **Acesso Anual — “Black Holos”** | Formação completa + **HoloHacking** (bônus) | De R$ 6.000 **por R$ 3.500** | Nutricionistas que querem o pacote completo |
+| **HoloHacking** | Software da Nutrição Holística (bônus avaliado em R$ 997, incluso no anual) | R$ 997 (valor de ancoragem) | Nutricionistas alunas |
 
 Garantia: **7 dias**, 100% do investimento de volta.
 Escassez oficial: “vagas limitadas para essa condição exclusiva” (turma limitada para manter qualidade do suporte).
@@ -102,7 +102,7 @@ surpreendentes → +100 congressos e cursos, linhas terapêuticas, protocolos �
 
 ## 8. Lacunas a completar (pedir ao Rodrigo / Codda)
 
-- [ ] Detalhes do **Holohacking** (o que faz, telas, fluxo) — ver `03-holohacking.md`.
+- [x] Detalhes do **HoloHacking** — briefing oficial em `03-holohacking.md`.
 - [ ] 3–5 **casos de alunas** com números (antes/depois do *negócio* da nutri: valor da consulta, agenda).
 - [ ] 2–3 **casos de pacientes** do Rodrigo (sem foto de corpo — ver compliance) que ilustrem o mecanismo.
 - [ ] Datas de abertura/fechamento de carrinho e da campanha **Black Holos**.

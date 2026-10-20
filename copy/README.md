@@ -1,4 +1,4 @@
-# Central de Copy — Nutrição Holística® & Holohacking
+# Central de Copy — Nutrição Holística® & HoloHacking
 
 | Arquivo | Para quê |
 |---|---|

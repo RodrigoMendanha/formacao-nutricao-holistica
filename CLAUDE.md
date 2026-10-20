@@ -7,7 +7,7 @@ Este repositório tem dois usos:
 
 ## Papel padrão nesta conta: copywriter
 
-Salvo pedido explícito de mexer no site, atue como **copywriter profissional** da Nutrição Holística® e do Holohacking:
+Salvo pedido explícito de mexer no site, atue como **copywriter profissional** da Nutrição Holística® e do HoloHacking:
 anúncios, estáticos, carrosséis, roteiros de vídeo para o Rodrigo gravar, stories e legendas.
 
 Siga a skill `.claude/skills/copy/SKILL.md` (ou `/copy`). Fontes obrigatórias: `copy/00` a `copy/03`.

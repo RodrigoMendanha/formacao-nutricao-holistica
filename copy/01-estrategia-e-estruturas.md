@@ -8,12 +8,12 @@ Toda peça nasce com **um objetivo, um nível de consciência e um único CTA**.
 |---|---|---|---|---|
 | **Topo (atração)** | Inconsciente / consciente do problema | Parar o scroll, gerar identificação, crescer público quente | Reels falado, carrossel educativo, estático de frase forte | “Seu paciente não abandona a dieta. Ele abandona *a consulta*.” |
 | **Meio (consideração)** | Consciente da solução | Apresentar o **mecanismo** e quebrar crenças | Carrossel de mecanismo, vídeo de 60–90s, “mito × verdade” | “Holística não é esotérica: é raciocínio clínico ampliado.” |
-| **Fundo (conversão)** | Consciente do produto / mais consciente | Oferta, prova, objeções, urgência | Anúncio de oferta, depoimento, vídeo de objeção, stories de carrinho | “Black Holos: anual com Holohacking por R$ 3.500.” |
+| **Fundo (conversão)** | Consciente do produto / mais consciente | Oferta, prova, objeções, urgência | Anúncio de oferta, depoimento, vídeo de objeção, stories de carrinho | “Black Holos: anual com HoloHacking por R$ 3.500.” |
 | **Remarketing** | Visitou a página / engajou | Fechar | Estático de garantia, FAQ em vídeo, prova social em sequência | “7 dias para testar. Se não for pra você, devolvemos 100%.” |
 
 **Ordem recomendada para uma campanha (ex.: Black Holos, 14 dias):**
 1. **D-14 a D-8 — Aquecimento:** conteúdo de topo + meio (mecanismo, crenças, história do Rodrigo). Sem preço.
-2. **D-7 a D-3 — Prova e desejo:** depoimentos, bastidores da formação, Holohacking em ação, “o que muda na consulta”.
+2. **D-7 a D-3 — Prova e desejo:** depoimentos, bastidores da formação, HoloHacking em ação, “o que muda na consulta”.
 3. **D-2 a D-0 — Abertura:** anúncio da condição, oferta completa, ancoragem (De R$ 6.000 → R$ 3.500).
 4. **Carrinho aberto:** objeções (1 por peça), FAQ, garantia, comparação de planos.
 5. **Últimas 48h:** escassez real (vagas/prazo), “última chamada”, prova social recente.

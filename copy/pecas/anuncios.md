@@ -48,13 +48,13 @@ A única Formação em Nutrição Holística do Brasil. 100% online, início ime
 
 ---
 
-## A02 · Black Holos (Acesso Anual + Holohacking)
+## A02 · Black Holos (Acesso Anual + HoloHacking)
 
 **Criativo (arte 1080×1350 · fundo escuro, selo dourado)**
 - Selo: **BLACK HOLOS**
 - Headline: **A Formação completa + o software do método.**
 - Preço: ~~De R$ 6.000~~ **por R$ 3.500**
-- Rodapé: Holohacking (R$ 997) incluso · Garantia de 7 dias
+- Rodapé: HoloHacking (R$ 997) incluso · Garantia de 7 dias
 
 Variações de headline para teste:
 - “O método e a ferramenta. No mesmo acesso.”
@@ -68,7 +68,7 @@ Nutri, se você vem adiando o momento de mudar a forma como atende, esse é o mo
 
 Durante a Black Holos, o Acesso Anual da Formação em Nutrição Holística® sai de R$ 6.000 por R$ 3.500.
 
-E vem com o Holohacking, o software da Nutrição Holística (avaliado em R$ 997), incluso.
+E vem com o HoloHacking, o software da Nutrição Holística (avaliado em R$ 997), incluso.
 
 Ou seja: você não leva só o método. Leva a ferramenta pra aplicar ele em toda consulta.
 
@@ -78,7 +78,7 @@ O que está incluído:
 ✔ Mapeamento completo do paciente em todas as dimensões
 ✔ Material complementar exclusivo em cada módulo
 ✔ Canal da Nutrição Holística com atualizações semanais
-🎁 Holohacking — Software da Nutrição Holística (R$ 997)
+🎁 HoloHacking — Software da Nutrição Holística (R$ 997)
 
 Você entra, conhece tudo por dentro e tem 7 dias de garantia. Se não fizer sentido pra você, devolvemos 100% do investimento.
 
@@ -87,5 +87,5 @@ As vagas nessa condição são limitadas e ela vale só até [DATA DE ENCERRAMEN
 👉 Toque em “Comprar agora” e garanta o seu Acesso Anual.
 
 **Título:** Black Holos: de R$ 6.000 por R$ 3.500
-**Descrição:** Holohacking incluso · Garantia de 7 dias
+**Descrição:** HoloHacking incluso · Garantia de 7 dias
 **Botão:** Comprar agora
