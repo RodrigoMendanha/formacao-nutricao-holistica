@@ -14,6 +14,19 @@ Nos cards com tela do sistema: selo pequeno “Paciente fictícia · imagem ilus
 
 ## Anúncio (ajustado)
 Texto principal: Sua consulta é profunda. A entrega pode estar à altura. 🌿 / Com o HoloHacking: 1️⃣ Sua paciente responde o Mapeamento Holístico antes da consulta 2️⃣ Você aprofunda Corpo, Mente e Espírito no mesmo atendimento 3️⃣ Monta um plano por fase, com a sua marca, enviado pelo WhatsApp 4️⃣ O retorno continua de onde vocês pararam / O HoloHacking organiza. Você decide. / Arraste para o lado e veja como funciona 👉
-Título: Da primeira pergunta ao retorno, tudo conectado · Descrição: HoloHacking, a plataforma da Nutrição Holística · Botão: Saiba mais (link NÃO DEFINIDO) ou Enviar mensagem.
+Título: 4 motivos para o HoloHacking mudar o seu atendimento (variações: “4 mudanças que o HoloHacking traz para a sua consulta” · “4 motivos para levar o HoloHacking para a sua consulta”) · Descrição: HoloHacking, a plataforma da Nutrição Holística · Botão: Saiba mais (link NÃO DEFINIDO) ou Enviar mensagem.
 Títulos por cartão: Mapeamento antes da consulta · Corpo, Mente e Espírito · Plano por fase no WhatsApp · Retorno com continuidade · Conheça o HoloHacking.
 Configuração: desligar “Mostrar automaticamente os cartões com melhor desempenho primeiro”; desligar o cartão final automático com a foto do perfil.
+
+## Legenda Instagram (ajustada)
+Sua consulta é profunda. Mas o que a sua paciente leva pra casa também é?
+
+Arraste e veja 4 motivos para o HoloHacking mudar o seu atendimento: do Mapeamento antes da consulta ao retorno que continua de onde vocês pararam.
+
+O HoloHacking organiza. Você decide.
+
+Qual desses 4 faz mais falta no seu atendimento hoje? Me conta nos comentários 👇
+
+Link na bio.
+
+#holohacking #nutricaoholistica #nutricionista #consultorionutricional
