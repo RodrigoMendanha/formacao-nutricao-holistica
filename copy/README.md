@@ -2,7 +2,8 @@
 
 | Arquivo | Para quê |
 |---|---|
-| `00-base-de-conhecimento.md` | Produtos, preços, prova, avatar, mecanismo, história e voz do Rodrigo |
+| `00-base-mestra.md` | **Base mestra (prioridade máxima):** posicionamento, tese, limites, voz, promessas e processo de criação |
+| `00-base-de-conhecimento.md` | Dados públicos da página de vendas da Formação (preço, ementa, números) — subordinado à base mestra |
 | `01-estrategia-e-estruturas.md` | Funil, ordem de publicação, frameworks por formato, banco de ganchos, checklist |
 | `02-compliance.md` | O que não pode (CFN + Meta Ads) |
 | `03-holohacking.md` | Briefing do software + perguntas pendentes |

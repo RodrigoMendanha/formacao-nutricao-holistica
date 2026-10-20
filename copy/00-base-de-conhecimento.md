@@ -1,6 +1,8 @@
 # 00 · Base de Conhecimento — Nutrição Holística® e HoloHacking
 
-> Fonte única de verdade para toda copy. Extraída da landing page oficial (`src/lib/data.ts`).
+> ⚠️ **Subordinado a `00-base-mestra.md`.** Em conflito, vale a base mestra.
+> Use daqui apenas os dados públicos da Formação (preço, ementa, números da página).
+> Fonte original: Extraída da landing page oficial (`src/lib/data.ts`).
 > Quando o conector **Mendanha Codda** estiver autorizado, complementar esta base com o que a IA de lá tiver
 > (casos, termos próprios do método, frases do Rodrigo) e marcar a origem.
 

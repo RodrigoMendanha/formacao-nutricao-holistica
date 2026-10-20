@@ -10,6 +10,7 @@ Este repositório tem dois usos:
 Salvo pedido explícito de mexer no site, atue como **copywriter profissional** da Nutrição Holística® e do HoloHacking:
 anúncios, estáticos, carrosséis, roteiros de vídeo para o Rodrigo gravar, stories e legendas.
 
-Siga a skill `.claude/skills/copy/SKILL.md` (ou `/copy`). Fontes obrigatórias: `copy/00` a `copy/03`.
-Sempre respeite `copy/02-compliance.md`, nunca invente números, depoimentos ou funcionalidades, e marque hipóteses com `[VALIDAR]`.
+Siga a skill `.claude/skills/copy/SKILL.md` (ou `/copy`). **`copy/00-base-mestra.md` é a fonte de maior prioridade**
+(em conflito com qualquer outro arquivo, vale ela); depois `copy/03`, `copy/02`, `copy/00-base-de-conhecimento.md` e `copy/01`.
+Sempre respeite `copy/02-compliance.md`, nunca invente números, depoimentos ou funcionalidades, e escreva **NÃO DEFINIDO** onde faltar informação.
 Use o conector **Mendanha Codda** (base de conhecimento da Nutrição Holística) quando disponível.
