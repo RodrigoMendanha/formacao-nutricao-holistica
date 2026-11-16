@@ -159,7 +159,7 @@ export function Oferta() {
               ))}
             </div>
 
-            {/* Bônus do acesso anual */}
+            {/* Bônus do acesso de 1 ano */}
             <div className="mt-6 rounded-2xl border border-gold/60 bg-gold/10 p-4">
               <div className="flex items-start gap-3.5">
                 <span

@@ -232,24 +232,24 @@ export const OFERTA = {
         ],
       },
     ],
-    // Bônus exclusivo do acesso anual (bloco destacado abaixo da lista).
+    // Bônus exclusivo do acesso de 1 ano (bloco destacado abaixo da lista).
     bonus: {
-      etiqueta: "BÔNUS EXCLUSIVO DO ACESSO ANUAL",
+      etiqueta: "BÔNUS EXCLUSIVO DO ACESSO DE 1 ANO",
       nome: "Holohacking",
       descricao: "Software da Nutrição Holística",
       valor: "R$ 997",
-      nota: "Incluso no acesso anual",
+      nota: "Incluso no acesso de 1 ano",
     },
     planos: [
       {
-        label: "ACESSO ANUAL",
+        label: "ACESSO DE 1 ANO",
         // Selo de campanha exibido sobre o bloco de preço.
         selo: "BLACK HOLOS",
         precoDe: "De R$ 6.000",
         precoPrefixo: "por apenas",
-        precoValor: "R$ 3.500",
+        precoValor: "R$ 2.997",
         precoSufixo: "",
-        cta: "QUERO O ACESSO ANUAL",
+        cta: "QUERO O ACESSO DE 1 ANO",
         // Identificador do produto enviado à API de leads (diferencia a oferta).
         produto: "Formação + Meta Nutri Academy (Anual)",
       },
